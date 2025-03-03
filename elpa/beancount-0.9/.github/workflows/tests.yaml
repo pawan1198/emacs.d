@@ -1,0 +1,31 @@
+name: tests
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        emacs:
+          - '26.1'
+          - '26.2'
+          - '26.3'
+          - '27.1'
+          - '27.2'
+          - '28.1'
+          - '28.2'
+          - '29.1'
+          - '29.2'
+          - '29.3'
+    steps:
+    - uses: purcell/setup-emacs@master
+      with:
+        version: ${{ matrix.emacs }}
+    - run: pip install beancount
+    - uses: actions/checkout@v4
+    - run: make compile
+    - run: make test

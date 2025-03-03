@@ -1,0 +1,2 @@
+;; Generated package description from csharp-mode.el  -*- no-byte-compile: t -*-
+(define-package "csharp-mode" "2.0.0" "C# mode derived mode" '((emacs "26.1")) :commit "02c61c219b2c22491eff9b7315fed661fab423d4" :authors '(("Theodor Thornhill" . "theo@thornhill.no")) :maintainer '(("Jostein Kjønigsen" . "jostein@gmail.com") ("Theodor Thornhill" . "theo@thornhill.no")) :keywords '("c#" "languages" "oop" "mode") :url "https://github.com/emacs-csharp/csharp-mode")

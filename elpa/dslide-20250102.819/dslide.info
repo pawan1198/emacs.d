@@ -1,0 +1,2617 @@
+This is dslide.info, produced by makeinfo version 6.8 from dslide.texi.
+
+GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+
+   Copyright (C) 2007 Free Software Foundation, Inc.  <http://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies of this
+license document, but changing it is not allowed.
+
+   Preamble
+
+   The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+
+   The licenses for most software and other practical works are designed
+to take away your freedom to share and change the works.  By contrast,
+the GNU General Public License is intended to guarantee your freedom to
+share and change all versions of a program–to make sure it remains free
+software for all its users.  We, the Free Software Foundation, use the
+GNU General Public License for most of our software; it applies also to
+any other work released this way by its authors.  You can apply it to
+your programs, too.
+
+   When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+them if you wish), that you receive source code or can get it if you
+want it, that you can change the software or use pieces of it in new
+free programs, and that you know you can do these things.
+
+   To protect your rights, we need to prevent others from denying you
+these rights or asking you to surrender the rights.  Therefore, you have
+certain responsibilities if you distribute copies of the software, or if
+you modify it: responsibilities to respect the freedom of others.
+
+   For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must pass on to the recipients the same
+freedoms that you received.  You must make sure that they, too, receive
+or can get the source code.  And you must show them these terms so they
+know their rights.
+
+   Developers that use the GNU GPL protect your rights with two steps:
+(1) assert copyright on the software, and (2) offer you this License
+giving you legal permission to copy, distribute and/or modify it.
+
+   For the developers’ and authors’ protection, the GPL clearly explains
+that there is no warranty for this free software.  For both users’ and
+authors’ sake, the GPL requires that modified versions be marked as
+changed, so that their problems will not be attributed erroneously to
+authors of previous versions.
+
+   Some devices are designed to deny users access to install or run
+modified versions of the software inside them, although the manufacturer
+can do so.  This is fundamentally incompatible with the aim of
+protecting users’ freedom to change the software.  The systematic
+pattern of such abuse occurs in the area of products for individuals to
+use, which is precisely where it is most unacceptable.  Therefore, we
+have designed this version of the GPL to prohibit the practice for those
+products.  If such problems arise substantially in other domains, we
+stand ready to extend this provision to those domains in future versions
+of the GPL, as needed to protect the freedom of users.
+
+   Finally, every program is threatened constantly by software patents.
+States should not allow patents to restrict development and use of
+software on general-purpose computers, but in those that do, we wish to
+avoid the special danger that patents applied to a free program could
+make it effectively proprietary.  To prevent this, the GPL assures that
+patents cannot be used to render the program non-free.
+
+   The precise terms and conditions for copying, distribution and
+modification follow.
+
+   TERMS AND CONDITIONS
+
+  1. Definitions.
+
+   “This License” refers to version 3 of the GNU General Public License.
+
+   “Copyright” also means copyright-like laws that apply to other kinds
+of works, such as semiconductor masks.
+
+   “The Program” refers to any copyrightable work licensed under this
+License.  Each licensee is addressed as “you”.  “Licensees” and
+“recipients” may be individuals or organizations.
+
+   To “modify” a work means to copy from or adapt all or part of the
+work in a fashion requiring copyright permission, other than the making
+of an exact copy.  The resulting work is called a “modified version” of
+the earlier work or a work “based on” the earlier work.
+
+   A “covered work” means either the unmodified Program or a work based
+on the Program.
+
+   To “propagate” a work means to do anything with it that, without
+permission, would make you directly or secondarily liable for
+infringement under applicable copyright law, except executing it on a
+computer or modifying a private copy.  Propagation includes copying,
+distribution (with or without modification), making available to the
+public, and in some countries other activities as well.
+
+   To “convey” a work means any kind of propagation that enables other
+parties to make or receive copies.  Mere interaction with a user through
+a computer network, with no transfer of a copy, is not conveying.
+
+   An interactive user interface displays “Appropriate Legal Notices” to
+the extent that it includes a convenient and prominently visible feature
+that (1) displays an appropriate copyright notice, and (2) tells the
+user that there is no warranty for the work (except to the extent that
+warranties are provided), that licensees may convey the work under this
+License, and how to view a copy of this License.  If the interface
+presents a list of user commands or options, such as a menu, a prominent
+item in the list meets this criterion.
+
+  1. Source Code.
+
+   The “source code” for a work means the preferred form of the work for
+making modifications to it.  “Object code” means any non-source form of
+a work.
+
+   A “Standard Interface” means an interface that either is an official
+standard defined by a recognized standards body, or, in the case of
+interfaces specified for a particular programming language, one that is
+widely used among developers working in that language.
+
+   The “System Libraries” of an executable work include anything, other
+than the work as a whole, that (a) is included in the normal form of
+packaging a Major Component, but which is not part of that Major
+Component, and (b) serves only to enable use of the work with that Major
+Component, or to implement a Standard Interface for which an
+implementation is available to the public in source code form.  A “Major
+Component”, in this context, means a major essential component (kernel,
+window system, and so on) of the specific operating system (if any) on
+which the executable work runs, or a compiler used to produce the work,
+or an object code interpreter used to run it.
+
+   The “Corresponding Source” for a work in object code form means all
+the source code needed to generate, install, and (for an executable
+work) run the object code and to modify the work, including scripts to
+control those activities.  However, it does not include the work’s
+System Libraries, or general-purpose tools or generally available free
+programs which are used unmodified in performing those activities but
+which are not part of the work.  For example, Corresponding Source
+includes interface definition files associated with source files for the
+work, and the source code for shared libraries and dynamically linked
+subprograms that the work is specifically designed to require, such as
+by intimate data communication or control flow between those subprograms
+and other parts of the work.
+
+   The Corresponding Source need not include anything that users can
+regenerate automatically from other parts of the Corresponding Source.
+
+   The Corresponding Source for a work in source code form is that same
+work.
+
+  1. Basic Permissions.
+
+   All rights granted under this License are granted for the term of
+copyright on the Program, and are irrevocable provided the stated
+conditions are met.  This License explicitly affirms your unlimited
+permission to run the unmodified Program.  The output from running a
+covered work is covered by this License only if the output, given its
+content, constitutes a covered work.  This License acknowledges your
+rights of fair use or other equivalent, as provided by copyright law.
+
+   You may make, run and propagate covered works that you do not convey,
+without conditions so long as your license otherwise remains in force.
+You may convey covered works to others for the sole purpose of having
+them make modifications exclusively for you, or provide you with
+facilities for running those works, provided that you comply with the
+terms of this License in conveying all material for which you do not
+control copyright.  Those thus making or running the covered works for
+you must do so exclusively on your behalf, under your direction and
+control, on terms that prohibit them from making any copies of your
+copyrighted material outside their relationship with you.
+
+   Conveying under any other circumstances is permitted solely under the
+conditions stated below.  Sublicensing is not allowed; section 10 makes
+it unnecessary.
+
+  1. Protecting Users’ Legal Rights From Anti-Circumvention Law.
+
+   No covered work shall be deemed part of an effective technological
+measure under any applicable law fulfilling obligations under article 11
+of the WIPO copyright treaty adopted on 20 December 1996, or similar
+laws prohibiting or restricting circumvention of such measures.
+
+   When you convey a covered work, you waive any legal power to forbid
+circumvention of technological measures to the extent such circumvention
+is effected by exercising rights under this License with respect to the
+covered work, and you disclaim any intention to limit operation or
+modification of the work as a means of enforcing, against the work’s
+users, your or third parties’ legal rights to forbid circumvention of
+technological measures.
+
+  1. Conveying Verbatim Copies.
+
+   You may convey verbatim copies of the Program’s source code as you
+receive it, in any medium, provided that you conspicuously and
+appropriately publish on each copy an appropriate copyright notice; keep
+intact all notices stating that this License and any non-permissive
+terms added in accord with section 7 apply to the code; keep intact all
+notices of the absence of any warranty; and give all recipients a copy
+of this License along with the Program.
+
+   You may charge any price or no price for each copy that you convey,
+and you may offer support or warranty protection for a fee.
+
+  1. Conveying Modified Source Versions.
+
+   You may convey a work based on the Program, or the modifications to
+produce it from the Program, in the form of source code under the terms
+of section 4, provided that you also meet all of these conditions:
+
+   a) The work must carry prominent notices stating that you modified
+it, and giving a relevant date.
+
+   b) The work must carry prominent notices stating that it is released
+under this License and any conditions added under section
+  1. This requirement modifies the requirement in section 4 to
+   “keep intact all notices”.
+
+   c) You must license the entire work, as a whole, under this License
+to anyone who comes into possession of a copy.  This License will
+therefore apply, along with any applicable section 7 additional terms,
+to the whole of the work, and all its parts, regardless of how they are
+packaged.  This License gives no permission to license the work in any
+other way, but it does not invalidate such permission if you have
+separately received it.
+
+   d) If the work has interactive user interfaces, each must display
+Appropriate Legal Notices; however, if the Program has interactive
+interfaces that do not display Appropriate Legal Notices, your work need
+not make them do so.
+
+   A compilation of a covered work with other separate and independent
+works, which are not by their nature extensions of the covered work, and
+which are not combined with it such as to form a larger program, in or
+on a volume of a storage or distribution medium, is called an
+“aggregate” if the compilation and its resulting copyright are not used
+to limit the access or legal rights of the compilation’s users beyond
+what the individual works permit.  Inclusion of a covered work in an
+aggregate does not cause this License to apply to the other parts of the
+aggregate.
+
+  1. Conveying Non-Source Forms.
+
+   You may convey a covered work in object code form under the terms of
+sections 4 and 5, provided that you also convey the machine-readable
+Corresponding Source under the terms of this License, in one of these
+ways:
+
+   a) Convey the object code in, or embodied in, a physical product
+(including a physical distribution medium), accompanied by the
+Corresponding Source fixed on a durable physical medium customarily used
+for software interchange.
+
+   b) Convey the object code in, or embodied in, a physical product
+(including a physical distribution medium), accompanied by a written
+offer, valid for at least three years and valid for as long as you offer
+spare parts or customer support for that product model, to give anyone
+who possesses the object code either (1) a copy of the Corresponding
+Source for all the software in the product that is covered by this
+License, on a durable physical medium customarily used for software
+interchange, for a price no more than your reasonable cost of physically
+performing this conveying of source, or (2) access to copy the
+Corresponding Source from a network server at no charge.
+
+   c) Convey individual copies of the object code with a copy of the
+written offer to provide the Corresponding Source.  This alternative is
+allowed only occasionally and noncommercially, and only if you received
+the object code with such an offer, in accord with subsection 6b.
+
+   d) Convey the object code by offering access from a designated place
+(gratis or for a charge), and offer equivalent access to the
+Corresponding Source in the same way through the same place at no
+further charge.  You need not require recipients to copy the
+Corresponding Source along with the object code.  If the place to copy
+the object code is a network server, the Corresponding Source may be on
+a different server (operated by you or a third party) that supports
+equivalent copying facilities, provided you maintain clear directions
+next to the object code saying where to find the Corresponding Source.
+Regardless of what server hosts the Corresponding Source, you remain
+obligated to ensure that it is available for as long as needed to
+satisfy these requirements.
+
+   e) Convey the object code using peer-to-peer transmission, provided
+you inform other peers where the object code and Corresponding Source of
+the work are being offered to the general public at no charge under
+subsection 6d.
+
+   A separable portion of the object code, whose source code is excluded
+from the Corresponding Source as a System Library, need not be included
+in conveying the object code work.
+
+   A “User Product” is either (1) a “consumer product”, which means any
+tangible personal property which is normally used for personal, family,
+or household purposes, or (2) anything designed or sold for
+incorporation into a dwelling.  In determining whether a product is a
+consumer product, doubtful cases shall be resolved in favor of coverage.
+For a particular product received by a particular user, “normally used”
+refers to a typical or common use of that class of product, regardless
+of the status of the particular user or of the way in which the
+particular user actually uses, or expects or is expected to use, the
+product.  A product is a consumer product regardless of whether the
+product has substantial commercial, industrial or non-consumer uses,
+unless such uses represent the only significant mode of use of the
+product.
+
+   “Installation Information” for a User Product means any methods,
+procedures, authorization keys, or other information required to install
+and execute modified versions of a covered work in that User Product
+from a modified version of its Corresponding Source.  The information
+must suffice to ensure that the continued functioning of the modified
+object code is in no case prevented or interfered with solely because
+modification has been made.
+
+   If you convey an object code work under this section in, or with, or
+specifically for use in, a User Product, and the conveying occurs as
+part of a transaction in which the right of possession and use of the
+User Product is transferred to the recipient in perpetuity or for a
+fixed term (regardless of how the transaction is characterized), the
+Corresponding Source conveyed under this section must be accompanied by
+the Installation Information.  But this requirement does not apply if
+neither you nor any third party retains the ability to install modified
+object code on the User Product (for example, the work has been
+installed in ROM).
+
+   The requirement to provide Installation Information does not include
+a requirement to continue to provide support service, warranty, or
+updates for a work that has been modified or installed by the recipient,
+or for the User Product in which it has been modified or installed.
+Access to a network may be denied when the modification itself
+materially and adversely affects the operation of the network or
+violates the rules and protocols for communication across the network.
+
+   Corresponding Source conveyed, and Installation Information provided,
+in accord with this section must be in a format that is publicly
+documented (and with an implementation available to the public in source
+code form), and must require no special password or key for unpacking,
+reading or copying.
+
+  1. Additional Terms.
+
+   “Additional permissions” are terms that supplement the terms of this
+License by making exceptions from one or more of its conditions.
+Additional permissions that are applicable to the entire Program shall
+be treated as though they were included in this License, to the extent
+that they are valid under applicable law.  If additional permissions
+apply only to part of the Program, that part may be used separately
+under those permissions, but the entire Program remains governed by this
+License without regard to the additional permissions.
+
+   When you convey a copy of a covered work, you may at your option
+remove any additional permissions from that copy, or from any part of
+it.  (Additional permissions may be written to require their own removal
+in certain cases when you modify the work.)  You may place additional
+permissions on material, added by you to a covered work, for which you
+have or can give appropriate copyright permission.
+
+   Notwithstanding any other provision of this License, for material you
+add to a covered work, you may (if authorized by the copyright holders
+of that material) supplement the terms of this License with terms:
+
+   a) Disclaiming warranty or limiting liability differently from the
+terms of sections 15 and 16 of this License; or
+
+   b) Requiring preservation of specified reasonable legal notices or
+author attributions in that material or in the Appropriate Legal Notices
+displayed by works containing it; or
+
+   c) Prohibiting misrepresentation of the origin of that material, or
+requiring that modified versions of such material be marked in
+reasonable ways as different from the original version; or
+
+   d) Limiting the use for publicity purposes of names of licensors or
+authors of the material; or
+
+   e) Declining to grant rights under trademark law for use of some
+trade names, trademarks, or service marks; or
+
+   f) Requiring indemnification of licensors and authors of that
+material by anyone who conveys the material (or modified versions of it)
+with contractual assumptions of liability to the recipient, for any
+liability that these contractual assumptions directly impose on those
+licensors and authors.
+
+   All other non-permissive additional terms are considered “further
+restrictions” within the meaning of section 10.  If the Program as you
+received it, or any part of it, contains a notice stating that it is
+governed by this License along with a term that is a further
+restriction, you may remove that term.  If a license document contains a
+further restriction but permits relicensing or conveying under this
+License, you may add to a covered work material governed by the terms of
+that license document, provided that the further restriction does not
+survive such relicensing or conveying.
+
+   If you add terms to a covered work in accord with this section, you
+must place, in the relevant source files, a statement of the additional
+terms that apply to those files, or a notice indicating where to find
+the applicable terms.
+
+   Additional terms, permissive or non-permissive, may be stated in the
+form of a separately written license, or stated as exceptions; the above
+requirements apply either way.
+
+  1. Termination.
+
+   You may not propagate or modify a covered work except as expressly
+provided under this License.  Any attempt otherwise to propagate or
+modify it is void, and will automatically terminate your rights under
+this License (including any patent licenses granted under the third
+paragraph of section 11).
+
+   However, if you cease all violation of this License, then your
+license from a particular copyright holder is reinstated (a)
+provisionally, unless and until the copyright holder explicitly and
+finally terminates your license, and (b) permanently, if the copyright
+holder fails to notify you of the violation by some reasonable means
+prior to 60 days after the cessation.
+
+   Moreover, your license from a particular copyright holder is
+reinstated permanently if the copyright holder notifies you of the
+violation by some reasonable means, this is the first time you have
+received notice of violation of this License (for any work) from that
+copyright holder, and you cure the violation prior to 30 days after your
+receipt of the notice.
+
+   Termination of your rights under this section does not terminate the
+licenses of parties who have received copies or rights from you under
+this License.  If your rights have been terminated and not permanently
+reinstated, you do not qualify to receive new licenses for the same
+material under section 10.
+
+  1. Acceptance Not Required for Having Copies.
+
+   You are not required to accept this License in order to receive or
+run a copy of the Program.  Ancillary propagation of a covered work
+occurring solely as a consequence of using peer-to-peer transmission to
+receive a copy likewise does not require acceptance.  However, nothing
+other than this License grants you permission to propagate or modify any
+covered work.  These actions infringe copyright if you do not accept
+this License.  Therefore, by modifying or propagating a covered work,
+you indicate your acceptance of this License to do so.
+
+  1. Automatic Licensing of Downstream Recipients.
+
+   Each time you convey a covered work, the recipient automatically
+receives a license from the original licensors, to run, modify and
+propagate that work, subject to this License.  You are not responsible
+for enforcing compliance by third parties with this License.
+
+   An “entity transaction” is a transaction transferring control of an
+organization, or substantially all assets of one, or subdividing an
+organization, or merging organizations.  If propagation of a covered
+work results from an entity transaction, each party to that transaction
+who receives a copy of the work also receives whatever licenses to the
+work the party’s predecessor in interest had or could give under the
+previous paragraph, plus a right to possession of the Corresponding
+Source of the work from the predecessor in interest, if the predecessor
+has it or can get it with reasonable efforts.
+
+   You may not impose any further restrictions on the exercise of the
+rights granted or affirmed under this License.  For example, you may not
+impose a license fee, royalty, or other charge for exercise of rights
+granted under this License, and you may not initiate litigation
+(including a cross-claim or counterclaim in a lawsuit) alleging that any
+patent claim is infringed by making, using, selling, offering for sale,
+or importing the Program or any portion of it.
+
+  1. Patents.
+
+   A “contributor” is a copyright holder who authorizes use under this
+License of the Program or a work on which the Program is based.  The
+work thus licensed is called the contributor’s “contributor version”.
+
+   A contributor’s “essential patent claims” are all patent claims owned
+or controlled by the contributor, whether already acquired or hereafter
+acquired, that would be infringed by some manner, permitted by this
+License, of making, using, or selling its contributor version, but do
+not include claims that would be infringed only as a consequence of
+further modification of the contributor version.  For purposes of this
+definition, “control” includes the right to grant patent sublicenses in
+a manner consistent with the requirements of this License.
+
+   Each contributor grants you a non-exclusive, worldwide, royalty-free
+patent license under the contributor’s essential patent claims, to make,
+use, sell, offer for sale, import and otherwise run, modify and
+propagate the contents of its contributor version.
+
+   In the following three paragraphs, a “patent license” is any express
+agreement or commitment, however denominated, not to enforce a patent
+(such as an express permission to practice a patent or covenant not to
+sue for patent infringement).  To “grant” such a patent license to a
+party means to make such an agreement or commitment not to enforce a
+patent against the party.
+
+   If you convey a covered work, knowingly relying on a patent license,
+and the Corresponding Source of the work is not available for anyone to
+copy, free of charge and under the terms of this License, through a
+publicly available network server or other readily accessible means,
+then you must either (1) cause the Corresponding Source to be so
+available, or (2) arrange to deprive yourself of the benefit of the
+patent license for this particular work, or (3) arrange, in a manner
+consistent with the requirements of this License, to extend the patent
+license to downstream recipients.  “Knowingly relying” means you have
+actual knowledge that, but for the patent license, your conveying the
+covered work in a country, or your recipient’s use of the covered work
+in a country, would infringe one or more identifiable patents in that
+country that you have reason to believe are valid.
+
+   If, pursuant to or in connection with a single transaction or
+arrangement, you convey, or propagate by procuring conveyance of, a
+covered work, and grant a patent license to some of the parties
+receiving the covered work authorizing them to use, propagate, modify or
+convey a specific copy of the covered work, then the patent license you
+grant is automatically extended to all recipients of the covered work
+and works based on it.
+
+   A patent license is “discriminatory” if it does not include within
+the scope of its coverage, prohibits the exercise of, or is conditioned
+on the non-exercise of one or more of the rights that are specifically
+granted under this License.  You may not convey a covered work if you
+are a party to an arrangement with a third party that is in the business
+of distributing software, under which you make payment to the third
+party based on the extent of your activity of conveying the work, and
+under which the third party grants, to any of the parties who would
+receive the covered work from you, a discriminatory patent license (a)
+in connection with copies of the covered work conveyed by you (or copies
+made from those copies), or (b) primarily for and in connection with
+specific products or compilations that contain the covered work, unless
+you entered into that arrangement, or that patent license was granted,
+prior to 28 March 2007.
+
+   Nothing in this License shall be construed as excluding or limiting
+any implied license or other defenses to infringement that may otherwise
+be available to you under applicable patent law.
+
+  1. No Surrender of Others’ Freedom.
+
+   If conditions are imposed on you (whether by court order, agreement
+or otherwise) that contradict the conditions of this License, they do
+not excuse you from the conditions of this License.  If you cannot
+convey a covered work so as to satisfy simultaneously your obligations
+under this License and any other pertinent obligations, then as a
+consequence you may not convey it at all.  For example, if you agree to
+terms that obligate you to collect a royalty for further conveying from
+those to whom you convey the Program, the only way you could satisfy
+both those terms and this License would be to refrain entirely from
+conveying the Program.
+
+  1. Use with the GNU Affero General Public License.
+
+   Notwithstanding any other provision of this License, you have
+permission to link or combine any covered work with a work licensed
+under version 3 of the GNU Affero General Public License into a single
+combined work, and to convey the resulting work.  The terms of this
+License will continue to apply to the part which is the covered work,
+but the special requirements of the GNU Affero General Public License,
+section 13, concerning interaction through a network will apply to the
+combination as such.
+
+  1. Revised Versions of this License.
+
+   The Free Software Foundation may publish revised and/or new versions
+of the GNU General Public License from time to time.  Such new versions
+will be similar in spirit to the present version, but may differ in
+detail to address new problems or concerns.
+
+   Each version is given a distinguishing version number.  If the
+Program specifies that a certain numbered version of the GNU General
+Public License “or any later version” applies to it, you have the option
+of following the terms and conditions either of that numbered version or
+of any later version published by the Free Software Foundation.  If the
+Program does not specify a version number of the GNU General Public
+License, you may choose any version ever published by the Free Software
+Foundation.
+
+   If the Program specifies that a proxy can decide which future
+versions of the GNU General Public License can be used, that proxy’s
+public statement of acceptance of a version permanently authorizes you
+to choose that version for the Program.
+
+   Later license versions may give you additional or different
+permissions.  However, no additional obligations are imposed on any
+author or copyright holder as a result of your choosing to follow a
+later version.
+
+  1. Disclaimer of Warranty.
+
+   THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT
+WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE
+OF THE PROGRAM IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU
+ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+  1. Limitation of Liability.
+
+   IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR
+CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT
+NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES
+SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE
+WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+  1. Interpretation of Sections 15 and 16.
+
+   If the disclaimer of warranty and limitation of liability provided
+above cannot be given local legal effect according to their terms,
+reviewing courts shall apply local law that most closely approximates an
+absolute waiver of all civil liability in connection with the Program,
+unless a warranty or assumption of liability accompanies a copy of the
+Program in return for a fee.
+
+   END OF TERMS AND CONDITIONS
+
+   How to Apply These Terms to Your New Programs
+
+   If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+free software which everyone can redistribute and change under these
+terms.
+
+   To do so, attach the following notices to the program.  It is safest
+to attach them to the start of each source file to most effectively
+state the exclusion of warranty; and each file should have at least the
+“copyright” line and a pointer to where the full notice is found.
+
+   <one line to give the program’s name and a brief idea of what it
+does.> Copyright (C) <year> <name of author>
+
+   This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+   This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+   Also add information on how to contact you by electronic and paper
+mail.
+
+   If the program does terminal interaction, make it output a short
+notice like this when it starts in an interactive mode:
+
+   <program> Copyright (C) <year> <name of author> This program comes
+with ABSOLUTELY NO WARRANTY; for details type ‘show w’.  This is free
+software, and you are welcome to redistribute it under certain
+conditions; type ‘show c’ for details.
+
+   The hypothetical commands ‘show w’ and ‘show c’ should show the
+appropriate parts of the General Public License.  Of course, your
+program’s commands might be different; for a GUI interface, you would
+use an “about box”.
+
+   You should also get your employer (if you work as a programmer) or
+school, if any, to sign a “copyright disclaimer” for the program, if
+necessary.  For more information on this, and how to apply and follow
+the GNU GPL, see <http://www.gnu.org/licenses/>.
+
+   The GNU General Public License does not permit incorporating your
+program into proprietary programs.  If your program is a subroutine
+library, you may consider it more useful to permit linking proprietary
+applications with the library.  If this is what you want to do, use the
+GNU Lesser General Public License instead of this License.  But first,
+please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
+INFO-DIR-SECTION Emacs
+START-INFO-DIR-ENTRY
+* Dslide: (dslide).     A presentation framework.
+END-INFO-DIR-ENTRY
+
+
+File: dslide.info,  Node: Top,  Next: Introduction 🤯,  Up: (dir)
+
+Domain Specific sLIDEs
+**********************
+
+* Menu:
+
+* Introduction 🤯::              What is Dslide?
+* Status 🤠::
+* Glossary 🔤::                  Words We Invented
+* Creating ✏️::                   From document to a presentation
+* Presenting 📽️::                 Controlling the Presentation
+* Configuring 🎛️::                Global Settings
+* Extending 🧑‍🏭::               Custom Actions
+* Hacking 🧑‍🔬::                 Understanding the Guts
+* Contributing 🍔::              Give me hamburgers
+* Acknowledgments 🥇::           Remembering Org Tree Slide
+* Pronunciation 👮::             Butcher it Right
+* Indices 📇::
+
+— The Detailed Node Listing —
+
+Introduction 🤯
+
+* Design Goals 🥅::              Things Hopefully Achieved
+* Strengths 🦾::                 When Dslide is Perfect
+
+Glossary 🔤
+
+* Org Mode Terms 🦄::            Ones You Might Not Know
+
+Creating ✏️
+
+* Actions 🪄::                   Overview
+* Enabling Actions 🚦::          Making Content Do Stuff
+* Configuring Actions 🎛️::        Tweaking action behavior
+* Babel Scripting 🧑‍💻::         Fully programmable steps
+* Keyboard Macros 🤖::           Acting like you type well while talking
+* Hiding Markup 🥷🏿::           No More Ugly
+* Filtering Headings 🚮::        It’s Not Done Yet
+* Header Configuration 🎩::      Title, Author, Breadcumbs
+* File Local Variables 🍦::      Don’t forget regular Emacs behaviors
+
+Enabling Actions 🚦
+
+* Per-Element::                  Affiliated keyword prefix annotation
+* Keyword::                      The markup is the content
+* Property Drawer::              Actions that don’t have any other place
+* Default Actions ⛔::           To be replaced by smart dispatch
+
+Babel Scripting 🧑‍💻
+
+* Controlling Direction ♻️::      When will this block be called?
+* Ignoring Blocks 🙅::           Hey! Don’t evaluate that!
+* Visibility 👻::                Hiding blocks and their results
+* Confirming Evaluation 🔏::     Stop asking me!
+* Step Callbacks 👟::            Adding extra steps
+
+Header Configuration 🎩
+
+* Breadcrumbs 🍞::               Showing Parent Headings
+
+Presenting 📽️
+
+* Two Button Interface::         Its All Forwards and Backwards
+* Contents Interface::           Navigating Faster
+* Source Following::             Narrating & debugging live
+* Cursor Visibility 🥷::         Hidden by default
+
+Source Following
+
+* Present::                      A frame for slides
+* Develop::                      A window for slides
+* Start Functions::              Kicking things off
+
+Configuring 🎛️
+
+* Key Bindings::                 Recommended entry points
+* Hooks::                        Do this after that
+* Steezing Org 🕶️::               Making it Pretty
+
+Key Bindings
+
+* Secondary Commands 🚧::        Do something else
+
+Hooks
+
+* Per-Slide Behavior::           You want actions.  Trust me.
+
+Extending 🧑‍🏭
+
+* Creating Actions::             Overview
+* A Custom Action::              Example custom class
+* Default Classes::              Overriding the Guts
+
+Hacking 🧑‍🔬
+
+* Objects & Ownership::          What Holds What
+* Stateful Sequence::            Most Important Interface
+* Instantiating Slides::         Making Slides From Org Elements
+* Display::                      Visual Things
+* Element Mapping::              Working With Org Data
+* Progress Tracking::            Markers and You
+
+Objects & Ownership
+
+* Life Cycles::                  What Lives When
+
+Stateful Sequence
+
+* Flow Control::                 Controlling Progress
+
+Display
+
+* Hiding::                       With Overlays
+* Animation::                    Timers & Overlays
+* Full Screen Images::           Image Mode Buffer
+
+Contributing 🍔
+
+* Work In Progress 🚧::
+
+Work In Progress 🚧
+
+* Affiliated Keyword::
+* Layout::
+* Action Configuration Precedence::
+* Secondary Commands::
+* Starting From Point::
+* Affiliated Buffers::
+* Non-Graphic Display::
+* Improper Levels::
+* Counting Slides::
+* Non-Org Sequences::
+
+Indices 📇
+
+* Command and Function index::
+* Concept index::
+* Variable index::
+
+
+
+File: dslide.info,  Node: Introduction 🤯,  Next: Status 🤠,  Prev: Top,  Up: Top
+
+1 Introduction 🤯
+****************
+
+Dslide is conducts presentations in Emacs and can utilize anything and
+everything that Emacs can do.  Abstractly, a presentation is a scripted
+sequence of content.  Org mode documents are the primary means of
+encoding these sequences for dslide.
+
+   What dslide primarily adds to Emacs and Org Mode:
+
+   • Simplified user interface suitable for a presentation remote
+     controller
+   • Data model that adapts Emacs to this interface, including Org babel
+     and keyboard macros
+   • Method of attaching reusable, configurable programmed behavior to
+     org mode content
+   • Extensible framework for creating custom programmed behavior
+   • Presenter tools such as viewing hidden content invisible to the
+     audience
+
+* Menu:
+
+* Design Goals 🥅::              Things Hopefully Achieved
+* Strengths 🦾::                 When Dslide is Perfect
+
+
+File: dslide.info,  Node: Design Goals 🥅,  Next: Strengths 🦾,  Up: Introduction 🤯
+
+1.1 Design Goals 🥅
+==================
+
+Granular configurability was the first goal.  Dslide’s predecessor,
+‘org-tree-slide’, could only be configured at the level of the entire
+document, using customize variables.  Dslide aims to be configurable
+over each element of each heading.
+
+   Programmability quickly became primary motivation to develop dslide
+further.  Org babel blocks can be used as steps of a dslide
+presentation.  The action system is a framework for attaching reusable,
+configurable programmed behavior to multiple org elements.
+
+   If Emacs does it, dslide can present it.  As Emacs can use all of
+your programs and programming tools, so can dslide.  This includes both
+scripting through Elisp and command-based keyboard macros.  Dslide aims
+to integrate with other buffers and Emacs automation seemlessly.
+
+   High productivity was another goal.  By respecting export settings
+and cleaning up markup, dslide aims to re-use the same documents you
+already use for storing, organizing, and publishing information.  Dslide
+adds a bit of flair so that, with a decent org configuration, you get a
+decent result with little extra effort.
+
+
+File: dslide.info,  Node: Strengths 🦾,  Prev: Design Goals 🥅,  Up: Introduction 🤯
+
+1.2 Strengths 🦾
+===============
+
+Because dslide has access to all of your programming tools via Emacs, it
+is unmatchable by other software at presenting programming tools
+themselves.  No tool can sell or demonstrate programming or use of raw
+software tools more effectively than Dslide.
+
+   Dslide is also particularly good for presentations that are for
+internal use or intended for closed audiences, where lavish graphics
+that would be directed at end consumers is unneeded and could even be
+seen as an inappropriate expense of time:
+
+   • Friday feature demos
+   • Stand-ups, retros, and other rituals
+   • Early stage startup pitches
+
+
+File: dslide.info,  Node: Status 🤠,  Next: Glossary 🔤,  Prev: Introduction 🤯,  Up: Top
+
+2 Status 🤠
+**********
+
+   • Still pre-1.0.  See the version 1.0 feature roadmap
+     (https://github.com/positron-solutions/dslide/issues/20).  Read the
+     NEWS.org file for changes.
+   • Expect less markup over time.  Old markup should warn.
+   • Accepting PR’s.  Read the manual section on *note hacking: Hacking
+     🧑‍🔬.
+
+   Emojis indicate work-in-progress 🚧, intended deprecation ⛔, or
+experimental features 🧪.
+
+
+File: dslide.info,  Node: Glossary 🔤,  Next: Creating ✏️,  Prev: Status 🤠,  Up: Top
+
+3 Glossary 🔤
+************
+
+   • ‘Deck’: an object that is used to relate the display and base
+     buffer and is the root of all sequences.  It’s another word for
+     “presentation” or PT.
+   • ‘Slide’: an object that interprets an org heading to hydrate its
+     actions
+   • ‘Action’: an object that responds to ‘dslide-deck-forward’ and
+     ‘dslide-deck-backward’ calls to add behavior to content.  Actions
+     implements lifecycle methods to initialize and clean up state.
+        • ‘Slide Action’: an action subclass that handles initial
+          display of the slide and creation of child slides from
+          sub-headings.
+        • ‘Section Actions’: actions that typically control the display
+          and behavior of a heading’s section, the region between the
+          headline and child headings.
+   • ‘Secondary Action’: 🚧 To do “something else” besides step forwards
+     and backwards, ‘dslide-deck-start’ can be temporarily overloaded,
+     allowing presentation controllers with three buttons to control
+     extra behavior.
+   • ‘Step’: a single call to ‘dslide-deck-foward’ or
+     ‘dslide-deck-backward’, usually delegated down to ‘dslide-forward’
+     and ‘dslide-backward’ methods through the deck and slides down to
+     actions.  Actions implement steps.
+   • ‘Element Configuration’: Some actions can be configured
+     per-element.  This is done with an affiliated keyword such as
+     ‘#+attr_dslide_propertize:’ or the parameters of a block.  The
+     value is the configuration for how to work on that element.
+   • ‘Step Configuration’: When the element configuration is used by a
+     step.  The babel block parameters that configure how to use that
+     block as a step are its step configuration.
+   • ‘Contents’: A view of the folded top-level headings that is used
+     for quickly navigating between headings during a presentation.
+   • ‘Slide Buffer’: the slides are shown in an indirect buffer that is
+     cloned from your org document buffer.  The source is called the
+     *base buffer*.  Check for the ‘deck: my-presentation.org’ buffer
+     name.
+        • Indirect buffer and ‘slide-buffer’ are used interchangeably
+        • Base buffer or ‘base-buffer’ is used pretty exclusively
+   • ‘Stateful Sequence’: ‘dslide-stateful-sequence’ is an interface
+     that other classes implement when they will receive delegated
+     commands from the user.
+
+* Menu:
+
+* Org Mode Terms 🦄::            Ones You Might Not Know
+
+
+File: dslide.info,  Node: Org Mode Terms 🦄,  Up: Glossary 🔤
+
+3.1 Org Mode Terms 🦄
+====================
+
+Select org mode terms more frequently used by dslide.  Don’t miss *note
+Org Syntax (org): (org)Org Syntax.
+
+   • ‘Element’: org documents are parsed into elements and objects.
+     Headings, plain lists, and blocks are examples of elements.  See
+     the org element api
+     (https://orgmode.org/worg/dev/org-element-api.html) documentation.
+     Dslide makes heavy use of org’s element parser to implement its
+     features.
+   • ‘Keyword’: A single ‘#+keyword_style:’ line used to specify some
+     option.  Dslide uses them to encode some action steps directly.
+   • ‘Affilated keyword’: A ‘#+attr_keyword_style:’ line that directly
+     precedes an element and is used to add metadata to most org
+     elements, except headings.  It must begin with the ‘attr’ prefix!
+     ⚠️
+   • ‘Parameter’: Babel blocks have parameters.  Whenever an action
+     works mainly on blocks, it can use parameters rather than
+     affiliated keywords.
+   • ‘Property drawer’: Used especially to configure a heading’s slide
+     action or how an action affects a heading element (affiliated
+     keywords cannot apply to headings).  Can be used to configure
+     section actions.
+   • ‘Property’: Values in the property drawer.  Meta data attached to
+     headings.  See *note Property Syntax (org): (org)Property Syntax.
+
+
+File: dslide.info,  Node: Creating ✏️,  Next: Presenting 📽️,  Prev: Glossary 🔤,  Up: Top
+
+4 Creating ✏️
+************
+
+Documents should “just work” and obtain decent results.
+
+   • Add behavior to elements by enabling and configuring *note actions:
+     Actions 🪄.
+   • Add custom behavior with babel blocks and keyboard macros
+   • Create custom actions to use different kinds of data in reusable
+     ways
+
+* Menu:
+
+* Actions 🪄::                   Overview
+* Enabling Actions 🚦::          Making Content Do Stuff
+* Configuring Actions 🎛️::        Tweaking action behavior
+* Babel Scripting 🧑‍💻::         Fully programmable steps
+* Keyboard Macros 🤖::           Acting like you type well while talking
+* Hiding Markup 🥷🏿::           No More Ugly
+* Filtering Headings 🚮::        It’s Not Done Yet
+* Header Configuration 🎩::      Title, Author, Breadcumbs
+* File Local Variables 🍦::      Don’t forget regular Emacs behaviors
+
+
+File: dslide.info,  Node: Actions 🪄,  Next: Enabling Actions 🚦,  Up: Creating ✏️
+
+4.1 Actions 🪄
+=============
+
+Actions add behavior to your content.  They can be configured per-slide
+and in some cases per-element.
+
+   There are two kinds of actions:
+   • ‘Section actions’: work on the content in the heading’s section.
+     They use the ‘dslide-action’ base class and prefix.
+   • ‘Slide actions’: display the slide, usually by narrowing, and then
+     handle the child headings, either inline or as independent slides.
+     They use the ‘dslide-slide-action’ base class and prefix.
+
+   To browse all actions, because they are all EIEIO classes, you can
+use ‘eieio-browse’ and see the actions descend from ‘dslide-action’.
+     +--dslide-stateful-sequence
+          +--dslide-action
+               +--dslide-action-propertize
+               +--dslide-action-image
+               +--dslide-action-babel
+               +--dslide-action-kmacro
+               +--dslide-action-item-reveal
+               +--dslide-action-hide-markup
+               +--dslide-slide-action
+                    +--dslide-slide-action-every-child
+                    +--dslide-slide-action-inline
+                    +--dslide-slide-action-child
+                    +--dslide-slide-action-flat
+
+
+File: dslide.info,  Node: Enabling Actions 🚦,  Next: Configuring Actions 🎛️,  Prev: Actions 🪄,  Up: Creating ✏️
+
+4.2 Enabling Actions 🚦
+======================
+
+Most actions are enabled by scanning for the right content.  The babel
+action is used on babel blocks.  The image action is used on image
+links.  Some actions, especially slide actions, must be explicitly
+enabled.  The markup used to enable actions can also be where they are
+configured.
+
+* Menu:
+
+* Per-Element::                  Affiliated keyword prefix annotation
+* Keyword::                      The markup is the content
+* Property Drawer::              Actions that don’t have any other place
+* Default Actions ⛔::           To be replaced by smart dispatch
+
+
+File: dslide.info,  Node: Per-Element,  Next: Keyword,  Up: Enabling Actions 🚦
+
+4.2.1 Per-Element
+-----------------
+
+Some actions, such as ‘dslide-action-propertize’, can’t decide which
+elements to operate on or what to do with those elements.  They are both
+enabled and configured per-element by using an *affiliated keyword*.
+
+     #+attr_dslide_propertize: face '(:foreground "#ff0000")
+     This text will be red
+
+   🚧 This is the preferred style of configuration moving forward.
+
+   ℹ️ Affiliated keywords _must_ have the ‘attr’ prefix or they will not
+apply to the content they precede.  Affiliated keywords cannot be
+attached to headings, which must use their property drawer to attach
+data.
+
+
+File: dslide.info,  Node: Keyword,  Next: Property Drawer,  Prev: Per-Element,  Up: Enabling Actions 🚦
+
+4.2.2 Keyword
+-------------
+
+For some actions, the configuration _is_ the content.  They use a
+keyword.  The value of the keyword is the content for the action.  As
+elsewhere, use plist ‘:key value’ style configuration.
+     #+dslide_kmacro: :keys "M-x a n i m a t e <return>"
+
+
+File: dslide.info,  Node: Property Drawer,  Next: Default Actions ⛔,  Prev: Keyword,  Up: Enabling Actions 🚦
+
+4.2.3 Property Drawer
+---------------------
+
+Some actions run on every element of the heading before you even see the
+content.  Since there may be no associated content to attach them to,
+they can only be configured in the property drawer.  Slide actions are
+always configured this way.
+     * Inline Children
+     :PROPERTIES:
+     :DSLIDE_SLIDE_ACTION: dslide-slide-action-child :header nil
+     :DSLIDE_ACTIONS: dslide-action-item-reveal :inline t
+     :END:
+     - You won't believe these animations
+     - This is the world's greatest presentation software
+       + But mainly because it integrates with all you programming tools
+   • ‘DSLIDE_SLIDE_ACTION’: Accepts one slide action and its ‘:key
+     value’ configuration
+   • ‘DSLIDE_ACTIONS:’ Can be used to list multiple action classes and
+     their ‘:key value’ configurations.
+
+   The ‘dslide-action-hide-markup’ action only runs when entering a
+slide, to hide markup before you see anything.  🚧 It will be
+configurable in the property drawer.  Right now it checks
+‘dslide-hide-markup-types’.
+
+   🚧 These actions can currently only be configured in the property
+drawer but will be configured mainly per-element where possible in
+0.7.0:
+
+   • ‘dslide-action-image’
+   • ‘dslide-action-item-reveal’
+
+
+File: dslide.info,  Node: Default Actions ⛔,  Prev: Property Drawer,  Up: Enabling Actions 🚦
+
+4.2.4 Default Actions ⛔
+-----------------------
+
+⛔ Every action will be “default” in 0.7.0.  This concept still exists
+but the goal is to remove it.  It has been nearly gotten rid of already.
+
+   By default, every slide has five actions, configurable in
+‘dslide-default-actions’.  Non-default actions must be added to a slide
+using the slide’s property drawer.
+
+   ⚠️ Actions that work by recognizing org elements by type are perhaps
+a bit dangerous to leave on all the time.  Some actions may both want to
+work on the same elements.  This is why they are not all on by default.
+
+
+File: dslide.info,  Node: Configuring Actions 🎛️,  Next: Babel Scripting 🧑‍💻,  Prev: Enabling Actions 🚦,  Up: Creating ✏️
+
+4.3 Configuring Actions 🎛️
+=========================
+
+Many actions understand configuration options, allowing tuning of
+similar behaviors from the same class.
+
+   💡 To view an action’s default values, call ‘describe-symbol’ on it.
+Any slot definition usually has the same ‘:initarg’ and will be
+understood when used in the configuration.
+
+   Configuring is usually done by adding plist-style ‘:key value’
+arguments after the class name, keyword, or affiliated keyword:
+     * A Headline For a Heading
+     :PROPERTIES:
+     # configuration after a class name
+     :DSLIDE_ACTIONS: dslide-action-item-reveal :inline t
+     :END:
+
+     # A keyword configuration
+     #+dslide_kmacro: :frequency 0.08 :jitter 0.5 :keys "M-x a n"
+
+     # An affiliated keyword configuration
+     #+attr_dslide_propertize: face '(:background "#ddddff")
+     This text will be propertized
+   🚧 After class names, the current plist read implementation splits
+the string rather than using ‘read-string’ and is therefore not smart
+enough to parse lists as arguments.  However ‘dslide-action-propertize’
+demonstrates doing this correctly and shows that it will be possible if
+needed.
+
+
+File: dslide.info,  Node: Babel Scripting 🧑‍💻,  Next: Keyboard Macros 🤖,  Prev: Configuring Actions 🎛️,  Up: Creating ✏️
+
+4.4 Babel Scripting 🧑‍💻
+=======================
+
+You can write custom scripts into your presentation as Org Babel blocks.
+These are executed with the ‘dslide-action-babel’ action.  Easy peazy.
+     * My Heading With Babel Blocks
+     #+begin_src elisp
+       (message "Good job!")
+     #+end_src
+
+* Menu:
+
+* Controlling Direction ♻️::      When will this block be called?
+* Ignoring Blocks 🙅::           Hey! Don’t evaluate that!
+* Visibility 👻::                Hiding blocks and their results
+* Confirming Evaluation 🔏::     Stop asking me!
+* Step Callbacks 👟::            Adding extra steps
+
+
+File: dslide.info,  Node: Controlling Direction ♻️,  Next: Ignoring Blocks 🙅,  Up: Babel Scripting 🧑‍💻
+
+4.4.1 Controlling Direction ♻️
+-----------------------------
+
+By default blocks only execute going forward, one block per step.  You
+need to label your blocks with *note lifecycle: Life Cycles. methods if
+you want to perform setup (can be forward or backward) and teardown.
+See the ‘dslide-action-babel’ class and examples in ./test/demo.org
+(https://github.com/positron-solutions/dslide/blob/master/test/demo.org).
+
+   The ‘:direction’ babel block parameter is used to configure which
+methods will run the block.  Block labels that are understood:
+
+   • ‘forward’ and ‘backward’ are self-explanatory.  Position your
+     ‘backward’ blocks *above* any block that they undo
+
+   • ‘both’ runs either direction.  It will not repeat in place when
+     reversing.  Use separate ‘forward’ and ‘backward’ blocks for that 💡
+
+   • ‘begin’ and ‘end’ are run when the slide is instantiated, going
+     forward and backward respectively.  You can have several blocks
+     with these methods, and they will be run from *top-to-bottom*
+     always, making it easier to re-use code usually.
+
+   • ‘init’ is a combination of ‘begin’ and ‘end’ to make it easier to
+     write.
+
+   • ‘final’ is called to clean up when no progress can be made or if
+     the presentation is stopped.
+
+   💡These methods follow the naming and behavior of dslide’s *note
+stateful sequence: Stateful Sequence. interface.  The babel action is
+basically delegating stateful sequence calls into the blocks of your org
+document.
+
+   The ‘:direction’ parameter goes after the block language.
+     #+begin_src elisp :direction backward
+       (message "I run going backwards, on `dslide-deck-backward'")
+     #+end_src
+   You can use ‘[vector]’ or ‘'(quoted list)’ syntax to combine methods.
+     #+begin_src elisp :direction [end forward]
+       (message "My configuration is a vector with multiple directions")
+     #+end_src
+
+
+File: dslide.info,  Node: Ignoring Blocks 🙅,  Next: Visibility 👻,  Prev: Controlling Direction ♻️,  Up: Babel Scripting 🧑‍💻
+
+4.4.2 Ignoring Blocks 🙅
+-----------------------
+
+Use the ‘:eval’ parameter to prevent evaluation of blocks that aren’t
+for your presentation.
+     #+begin_src elisp :eval never
+       (message "Who cares?  I am never evaluated")
+     #+end_src
+
+
+File: dslide.info,  Node: Visibility 👻,  Next: Confirming Evaluation 🔏,  Prev: Ignoring Blocks 🙅,  Up: Babel Scripting 🧑‍💻
+
+4.4.3 Visibility 👻
+------------------
+
+The babel action also understands regular babel options such as
+‘:exports’ and ‘:results’.  Exports none will make the block invisible.
+Results controls whether results will be printed into the buffer or not.
+     # Only the results of this block are visible
+     #+begin_src elisp :exports results
+       '(a b c)
+     #+end_src
+   🚧 Some ‘:exports’ and ‘:results’ values are possibly not supported
+or supported weirdly.  Please, file issues 💁🍔
+
+
+File: dslide.info,  Node: Confirming Evaluation 🔏,  Next: Step Callbacks 👟,  Prev: Visibility 👻,  Up: Babel Scripting 🧑‍💻
+
+4.4.4 Confirming Evaluation 🔏
+-----------------------------
+
+By default, ‘org-confirm-babel-evaluate’ is set to nil.  This will drive
+you nuts during a presentation.  You should set this to t either in your
+‘dslide-start-hook’ or in a *note file local variable: File Local
+Variables 🍦.
+
+   ☣️ Don’t run random people’s presentations without checking the
+source!
+
+
+File: dslide.info,  Node: Step Callbacks 👟,  Prev: Confirming Evaluation 🔏,  Up: Babel Scripting 🧑‍💻
+
+4.4.5 Step Callbacks 👟
+----------------------
+
+You can use ‘dslide-push-step’ for inserting arbitrary callbacks that
+can function as steps.  Like everything else in dslide, returning
+non-nil means progress was made and the step should be consumed.  By
+adding these inside babel blocks, you can add extra steps that depend on
+the next direction.
+
+   The callback function should accept a DIRECTION argument.  DIRECTION
+is forward, backward, or nil.  nil just means the presentation is ending
+or displaying the contents, so you should clean up instead of attempting
+to do work.
+     #+begin_src elisp
+       (message "Just doing block things")
+
+       ;; Let's also push a step!
+       (dslide-push-step
+        (lambda (direction)
+          ;; Decide what to do
+          (pcase direction
+            ;; `message' returns non-nil and will function as a padding step
+            (forward (message "Injecting an extra step"))
+            ;; `prog1' nil returns the nil, so this will not add a step
+            (backward (prog1 nil (message "No step for you!")))
+            ;; The _ catch-all will handle non-directional calls, such as quitting
+            (_ (prog1 nil (message "Cleaning 💩 up!"))))))
+     #+end_src
+
+   ℹ️ You can also use ‘dslide-push-step’ in actions for implementing
+tricky action behaviors.  The image action uses this currently.
+
+
+File: dslide.info,  Node: Keyboard Macros 🤖,  Next: Hiding Markup 🥷🏿,  Prev: Babel Scripting 🧑‍💻,  Up: Creating ✏️
+
+4.5 Keyboard Macros 🤖
+=====================
+
+🧪 Experimental new feature.  Hopefully the configuration argument names
+are good.  Hopefully.
+
+   The ‘dslide-action-kmacro’ will run pre-recorded sequences of
+keystrokes as if you are controlling the computer.  Through ‘:frequency’
+and ‘:jitter’, it plays back strokes at a human-feeling pace.
+
+   Keyboard macros support :direction, but only forward and backward are
+recognized.  Forward is the default.
+
+   By playing back keyboard macros, you can encode real Emacs workflows
+as steps in a presentation.  Don’t just talk about how your software
+works.  Use the software with fully reproducible steps that users can
+understand in a tactile, human way.
+
+   To record kmacros as presentation steps, use the
+‘dslide-kmacro-transcribe-set-mark’ command.  It will save a marker and
+every time you call ‘kmacro-end-macro’, it will transcribe that macro as
+an expression that ‘dslide-action-kmacro’ knows how to play back.
+
+   🆒 The jitter uses a Laplace distribution to sample a perturbation
+power.  This power is mapped onto the zero-to-infinity factor range by
+raising e to the power of jitter.  This is multiplied by ‘:frequency’,
+which is a duration.  As a result, while the jitter is usually pretty
+small, it does have some wild variation, which does look a bit more
+human.
+
+
+File: dslide.info,  Node: Hiding Markup 🥷🏿,  Next: Filtering Headings 🚮,  Prev: Keyboard Macros 🤖,  Up: Creating ✏️
+
+4.6 Hiding Markup 🥷🏿
+====================
+
+Dslide uses a lot of markup that would not look good in a presentation.
+It also hides it by default using ‘dslide-action-hide-markup’.  You can
+adjust the types using ‘dslide-hide-markup-types’
+
+   ‘dslide-action-hide-markup’ will also hide todos and tags.  You can
+modify this with ‘dslide-hide-todo’ and ‘dslide-hide-tags’.
+
+
+File: dslide.info,  Node: Filtering Headings 🚮,  Next: Header Configuration 🎩,  Prev: Hiding Markup 🥷🏿,  Up: Creating ✏️
+
+4.7 Filtering Headings 🚮
+========================
+
+   • Any heading with ‘COMMENT’ directly after the stars will be skipped
+   • Any heading with the ‘:noslide:’ or ‘:noexport:’ tags will be
+     skipped
+
+   Use this when your headings are work-in-progress and you run out of
+time on Friday before the feature demo meeting.  Have some content that
+is only not used in presentations?  Use ‘:noslide:’.
+
+   To change the filtering from what is done by
+‘dslide-built-in-filter’, customize ‘dslide-default-filter’ or set
+‘DSLIDE_FILTER’ (possibly implemented 🤡, file an issue!).
+
+
+File: dslide.info,  Node: Header Configuration 🎩,  Next: File Local Variables 🍦,  Prev: Filtering Headings 🚮,  Up: Creating ✏️
+
+4.8 Header Configuration 🎩
+==========================
+
+If ‘dslide-header’ is configured, the keywords for the document title,
+email, and author etc will be used to generate an okay header.
+     #+,#+title:        Domain Specific sLIDEs
+     #+author:        Positron
+     #+email:        contact@positron.solutions
+   You can try customizing with ‘dslide-header-email’ and similar
+variables or just set ‘dslide-header-fun’ to completely replace the
+header with your own device.  Check its signature!
+
+* Menu:
+
+* Breadcrumbs 🍞::               Showing Parent Headings
+
+
+File: dslide.info,  Node: Breadcrumbs 🍞,  Up: Header Configuration 🎩
+
+4.8.1 Breadcrumbs 🍞
+-------------------
+
+Whenever ‘dslide-breadcrumb-separator’ is non-nil, breadcrumbs will be
+rendered in the heading, displaying parent headings so the audience an
+track context.
+
+   ‘dslide-breadcrumb-separator-style’ controls whether there is a
+separator after the terminal breadcrumb.  This can really help
+distinguish the breadcrumb from the current heading’s headline.
+‘append’ will have a terminal separator while ‘separate’ will only put
+them between breadcrumbs.
+
+   Because breadcrumb text comes from your headings, you may want to set
+a face on them to prevent various heading faces from leaking into the
+breadcrumbs.
+
+
+File: dslide.info,  Node: File Local Variables 🍦,  Prev: Header Configuration 🎩,  Up: Creating ✏️
+
+4.9 File Local Variables 🍦
+==========================
+
+Don’t forget that if you need a customize variable only set in a
+particular presentation, you can use file local variables.  Not every
+setting needs a keyword or babel block integration.
+
+   #+cindex confirming evaluation This is also one good way to set
+‘org-confirm-babel-evaluate’ and other settings that are somewhat risky
+to leave on generally.
+     # Local Variables:
+     # dslide-header: nil
+     # org-confirm-babel-evaluate: nil
+     # End:
+
+
+File: dslide.info,  Node: Presenting 📽️,  Next: Configuring 🎛️,  Prev: Creating ✏️,  Up: Top
+
+5 Presenting 📽️
+**************
+
+How to control and view your presentation.
+
+* Menu:
+
+* Two Button Interface::         Its All Forwards and Backwards
+* Contents Interface::           Navigating Faster
+* Source Following::             Narrating & debugging live
+* Cursor Visibility 🥷::         Hidden by default
+
+
+File: dslide.info,  Node: Two Button Interface,  Next: Contents Interface,  Up: Presenting 📽️
+
+5.1 Two Button Interface
+========================
+
+Presentations tend to be organized into a scripted linear sequence.  We
+want to control the entire presentation sequence mostly with two
+buttons, forwards and backwards.
+
+   The controllers for presenting usually have very few buttons.  Dslide
+was designed with this usage pattern in mind and can mostly be
+controlled by two commands.
+
+   • ‘dslide-deck-forward’
+   • ‘dslide-deck-backward’
+
+   Many controllers also have a “play” button or similar.  It’s
+recommended to map this to ‘dslide-deck-start’.
+
+   🚧 It is intended to overload ‘dslide-deck-start’ further to
+implement “secondary” actions that can be triggered non-linearly.
+
+   There is likely no good place to bind ‘dslide-deck-stop’, but it’s
+not critical.  You can do everything with just three buttons.
+
+
+File: dslide.info,  Node: Contents Interface,  Next: Source Following,  Prev: Two Button Interface,  Up: Presenting 📽️
+
+5.2 Contents Interface
+======================
+
+Navigate your presentation faster when answering questions.  The
+contents interface is a view of top-level headings.  It overloads the
+presentation controls to navigate.
+
+   To enter the contents, call ‘dslide-deck-start’ when a presentation
+is already active.
+
+   • ‘dslide-deck-start’ will resume the presentation at that heading
+   • ‘dslide-deck-stop’ will similarly exit the contents view
+   • ‘dslide-deck-forward’ and ‘dslide-deck-backward’ move between top
+     level headings.
+
+
+File: dslide.info,  Node: Source Following,  Next: Cursor Visibility 🥷,  Prev: Contents Interface,  Up: Presenting 📽️
+
+5.3 Source Following
+====================
+
+🚧 The start functions were recently overhauled.  They need user
+feedback, both to identify bugs and focus on real uses cases.
+‘dslide-deck-start’ should be the most reliable way to start
+presentations.
+
+   The presentation you see is a cloned *note indirect buffer:
+(elisp)Indirect Buffers. of your org mode buffer.  The Elisp state and
+overlays are independent.  There are two key advantages:
+
+   • Any state you create in the presentation (besides buffer text and
+     text properties!)  will not pollute the org mode buffer you are
+     editing
+   • We can display the source for the presentation simultaneously,
+     making one pretty while leaving the other to show us what is hidden
+
+   Using comments and comment blocks, you can write down prompts or
+scripts to help you maintain your flow.  Dslide highlights the current
+progress state, providing both debugging and narration feedback.
+
+   To leave a comment for yourself in the presentation source, just add
+a comment block or comment line:
+     # This is also a comment
+
+     #+begin_comment
+     This is a comment that only I can see while presenting, only when I look at my base buffer while sharing another frame.
+     #+end_comment
+
+* Menu:
+
+* Present::                      A frame for slides
+* Develop::                      A window for slides
+* Start Functions::              Kicking things off
+
+
+File: dslide.info,  Node: Present,  Next: Develop,  Up: Source Following
+
+5.3.1 Present
+-------------
+
+‘dslide-deck-present’ will display the slide buffer in an entirely new
+frame.  You can customize this frame via the ‘dslide-deck-present’ hook.
+
+   By using a frame, you can resize the frame and use frame specific
+‘set-face-attribute’ calls.  Because the hook configuration is
+independent, your customizations for development and presenting don’t
+have to fight each other.
+
+
+File: dslide.info,  Node: Develop,  Next: Start Functions,  Prev: Present,  Up: Source Following
+
+5.3.2 Develop
+-------------
+
+‘dslide-deck-develop’ will attempt to display both the presentation and
+source simultaneously using a window.
+
+   The ‘dslide-deck-develop’ hook is only called when using this
+command.  Because the hook configuration is independent, your
+customizations for development and presenting don’t have to fight each
+other.
+
+   You can also switch a window to the base buffer manually.  That’s
+almost all ‘dslide-deck-develop’ does.
+
+
+File: dslide.info,  Node: Start Functions,  Prev: Develop,  Up: Source Following
+
+5.3.3 Start Functions
+---------------------
+
+Dslide can be started by several commands.  ‘dslide-deck-start’ is the
+most obvious.  Writing such a command is as simple as binding
+‘dslide-start-function’ and then activating the mode.  The reason Dslide
+does this is to have several start commands that can basically inject
+their behavior like a user would with a hook except without messing with
+the user’s hooks.
+
+   When a start function is bound, ‘dslide-mode’ will create the slide
+buffer and then run the start function in order to rearrange windows or
+frames etc.  You can make your own start functions to start dslide in
+other ways.  Just ask yourself if you want the same hook behavior all
+the time.  If not, making a new command that uses a start function is a
+clean way.
+
+
+File: dslide.info,  Node: Cursor Visibility 🥷,  Prev: Source Following,  Up: Presenting 📽️
+
+5.4 Cursor Visibility 🥷
+=======================
+
+By default, the cursor is hidden in the presentation buffer using
+‘dslide-cursor-hide’.  Remove it from the ‘dslide-start-hook’ to disable
+this.  You can call ‘dslide-cursor-restore’ if you just temporarily need
+a cursor.
+
+   Another good choice for interactive presentations is to use
+‘moc-subtle-cursor-mode’ from the Master of Ceremonies
+(https://github.com/positron-solutions/moc) package.  It is more like
+having a laser pointer that hides itself automatically.
+
+
+File: dslide.info,  Node: Configuring 🎛️,  Next: Extending 🧑‍🏭,  Prev: Presenting 📽️,  Up: Top
+
+6 Configuring 🎛️
+***************
+
+Be sure to check ‘M-x’ ‘customize-group’ ‘dslide’ to see all declared
+custom variables.  All of the variables are configured to recommended
+defaults except hooks, which would depend on other packages usually.
+
+   Many settings can be configured at:
+   • global level through customize variables
+   • document level through keywords
+   • slide level through the property drawer
+
+* Menu:
+
+* Key Bindings::                 Recommended entry points
+* Hooks::                        Do this after that
+* Steezing Org 🕶️::               Making it Pretty
+
+
+File: dslide.info,  Node: Key Bindings,  Next: Hooks,  Up: Configuring 🎛️
+
+6.1 Key Bindings
+================
+
+You likely want to start the mode via ‘dslide-deck-start’.  Once the
+mode starts, it creates an indirect buffer to display the slides and
+then calls ‘dslide-deck-start-function’ once the mode is active and
+everything is initialized, so you can customize startup behavior.
+
+   💡 All top-level presentation commands begin with the ‘dslide-deck’
+prefix
+     (keymap-set org-mode-map "<f5>" #'dslide-deck-start)
+   Once the global minor mode, ‘dslide-mode’ is active, additional
+bindings in ‘dslide-mode-map’ are active in every buffer so that you can
+integrate other buffers into your presentation.  (Tracking which buffers
+are part of a presentation is still a topic under consideration 🚧)
+
+* Menu:
+
+* Secondary Commands 🚧::        Do something else
+
+
+File: dslide.info,  Node: Secondary Commands 🚧,  Up: Key Bindings
+
+6.1.1 Secondary Commands 🚧
+--------------------------
+
+Because you might want to play a video or take a branch in the
+presentation and then exit that branch, the plan is to overload the
+‘dslide-deck-start’ binding within presentations to enter / exit these
+branches.
+
+
+File: dslide.info,  Node: Hooks,  Next: Steezing Org 🕶️,  Prev: Key Bindings,  Up: Configuring 🎛️
+
+6.2 Hooks
+=========
+
+Beware of using the normal ‘dslide-mode-hook’ 😱 because it runs *in the
+base buffer* ⚠️.  If you use that hook to remap faces or add a bunch of
+styling, state will be copied to the indirect buffer but then linger in
+your base buffer.  Instead, use ‘dslide-start-hook’.  💡
+
+   • ‘dslide-start-hook’ is run in the indirect buffer after it is set
+     it.  This is what you want.
+   • ‘dslide-stop-hook’ is run in the base buffer because the indirect
+     buffer is already dead.
+   • ‘dslide-contents-hook’ is run after switching to contents.  It runs
+     in the slide buffer.
+   • ‘dslide-narrow-hook’ is run after narrowing, usually after a slide
+     is started
+   • ‘dslide-after-last-slide-hook’ is run when the user tries to go
+     forward but there are no more slides.  You can use this to
+     implement a final feedback before quitting or add
+     ‘dslide-deck-stop’ to exit without feedback.
+
+     Another option is to use ‘dslide-push-step’ to push a callback that
+     will only run when called going forward.
+
+     (defun my-stop-if-forward ()
+       (dslide-push-step (lambda (direction)
+                       (when (eq direction 'forward)
+                         ;; Be sure to return t or the callback won't count as a
+                         ;; step and the hook will run again.
+                         (prog1 t (dslide-deck-stop))))))
+
+     (setq dslide-after-last-slide-hook #'my-stop-if-forward)
+
+* Menu:
+
+* Per-Slide Behavior::           You want actions.  Trust me.
+
+
+File: dslide.info,  Node: Per-Slide Behavior,  Up: Hooks
+
+6.2.1 Per-Slide Behavior
+------------------------
+
+💡 If you want to do something on each slide or specific slides, before
+using hooks, instead consider using actions.
+
+   See the ‘dslide-action-hide-markup’ which is by default added to
+‘dslide-default-actions’ and hides markup on every slide.  The lifecycle
+of actions and their methods for obtaining the current slide’s heading
+make them very good for per-slide behavior.
+
+
+File: dslide.info,  Node: Steezing Org 🕶️,  Prev: Hooks,  Up: Configuring 🎛️
+
+6.3 Steezing Org 🕶️
+==================
+
+This is not unique to dslide, but if you want more professional looking
+results, you will likely need to make your org a bit prettier.
+
+   The setup used for the Positron’s YouTube demos is not much more
+complex than this well-documented setup by System Crafters
+(https://systemcrafters.net/emacs-tips/presentations-with-org-present/).
+Also see Prot’s further
+(https://protesilaos.com/codelog/2020-07-17-emacs-mixed-fonts-org/)
+documentation on customizing org mode faces and fonts.
+
+   In short, use:
+   • ‘org-modern’
+   • ‘org-appear’
+   • ‘nerd-icons’ for more cheesy (Emacs logo)
+   • And set the faces for org headings and document title.
+
+   Don’t forget built-in ‘emoji-search’ and searching ‘insert-char’.
+
+   Positron is cheating and also apply custom line-spacing and
+line-height.  While Psionic maintains a custom ‘org-modern’, using
+custom spacing everywhere fights with ‘visual-line-mode’ currently.
+
+
+File: dslide.info,  Node: Extending 🧑‍🏭,  Next: Hacking 🧑‍🔬,  Prev: Configuring 🎛️,  Up: Top
+
+7 Extending 🧑‍🏭
+***************
+
+Creating new actions or replacing dslide classes.
+
+* Menu:
+
+* Creating Actions::             Overview
+* A Custom Action::              Example custom class
+* Default Classes::              Overriding the Guts
+
+
+File: dslide.info,  Node: Creating Actions,  Next: A Custom Action,  Up: Extending 🧑‍🏭
+
+7.1 Creating Actions
+====================
+
+Actions are the right choice when you need custom behavior that you want
+to re-use.  Actions can be configured with arguments.  They implement
+the stateful sequence lifecycle.  For one-off solutions, you probably
+just want a babel block.
+
+   First choose your action type:
+
+   • Override ‘dslide-action’ to create an action that works mainly on a
+     heading’s section content.
+   • Override ‘dslide-slide-action’ to create a slide action.  Your
+     action will control the display of the slide and its children,
+     usually controlling the narrow state and adding or removing
+     overlays from children.
+
+   Override methods as appropriate, configure a heading to use your
+action, and you’re done.  Some actions, such as
+‘dslide-action-propertize’ only work when some of the section data is
+annotated.
+
+
+File: dslide.info,  Node: A Custom Action,  Next: Default Classes,  Prev: Creating Actions,  Up: Extending 🧑‍🏭
+
+7.2 A Custom Action
+===================
+
+The ‘dslide-section-next’ and ‘dslide-section-previous’ methods are very
+helpful behavior for quickly writing custom actions.  They advance the
+action’s ‘:marker’ forwards and backwards to the next matching element
+and return that element so we can do something with it.
+
+   • declare a class
+   • override a few methods
+   • now you too can paint the paragraphs red
+
+   Example code:
+
+     (defclass dslide-action-red-paragraphs (dslide-action)
+       ((overlays :initform nil))
+       "Paint the paragraphs red, one by one.")
+
+     ;; Default no-op `dslide-begin' is sufficient
+
+     ;; Default implementation of `dslide-end', which just plays forward to the end,
+     ;; is well-behaved with this class.
+
+     ;; Remove any remaining overlays when calling final.
+     (cl-defmethod dslide-final :after ((obj dslide-action-red-paragraphs))
+       (mapc #'delete-overlay (oref obj overlays)))
+
+     ;; Find the next paragraph and add an overlay if it exists
+     (cl-defmethod dslide-forward ((obj dslide-action-red-paragraphs))
+       (when-let ((paragraph (dslide-section-next obj 'paragraph)))
+         (let* ((beg (org-element-property :begin paragraph))
+                (end (org-element-property :end paragraph))
+                (new-overlay (make-overlay beg end)))
+           (overlay-put new-overlay 'face 'error)
+           (push new-overlay (oref obj overlays))
+           ;; Return non-nil to indicate progress was made.  This also informs the
+           ;; highlight when following the slides in the base buffer.
+           beg)))
+
+     (cl-defmethod dslide-backward ((obj dslide-action-red-paragraphs))
+       (when-let* ((overlay (pop (oref obj overlays))))
+         (delete-overlay overlay)
+         ;; If there is a preceding overlay, move to its beginning else move to the
+         ;; beginning of the heading.
+         (if-let ((overlay (car (oref obj overlays))))
+             (dslide-marker obj (overlay-start overlay))
+           (dslide-marker obj (org-element-property :begin (dslide-heading obj))))))
+
+
+File: dslide.info,  Node: Default Classes,  Prev: A Custom Action,  Up: Extending 🧑‍🏭
+
+7.3 Default Classes
+===================
+
+The deck and slide class as well as actions can be sub-classed.  Use the
+existing sub-classes of actions as example code for writing other
+classes.  See the *note eieio#Top: (eieio)Top. manual for explanation of
+OOP in Elisp.
+
+   • ‘Action’: Creating new action subclasses are an efficient way to
+     perform similar operations on typical kinds of org data.
+   • ‘Slide:’ Slides can be configured extensively by changing their
+     actions.  However, for more vertical cooperation between slides or
+     cooperation among actions, extended slides could be useful.
+   • ‘Deck’: If the core methods of the deck are insufficient, extension
+     is another option besides advice, hooks, and modifying the source.
+
+     If you suspect you might need to sub-class the ‘dslide-slide’ or
+     ‘dslide-deck’, please file an issue because your use case is
+     probably interesting.
+
+
+File: dslide.info,  Node: Hacking 🧑‍🔬,  Next: Contributing 🍔,  Prev: Extending 🧑‍🏭,  Up: Top
+
+8 Hacking 🧑‍🔬
+*************
+
+This section provides really high-level summary of the code’s major
+design choices to prepare for diving into source.
+
+* Menu:
+
+* Objects & Ownership::          What Holds What
+* Stateful Sequence::            Most Important Interface
+* Instantiating Slides::         Making Slides From Org Elements
+* Display::                      Visual Things
+* Element Mapping::              Working With Org Data
+* Progress Tracking::            Markers and You
+
+
+File: dslide.info,  Node: Objects & Ownership,  Next: Stateful Sequence,  Up: Hacking 🧑‍🔬
+
+8.1 Objects & Ownership
+=======================
+
+Org mode uses trees.  Presentations are linear sequences.  We can either
+traverse the tree or flatten it.  Dslide chose to traverse.  This design
+allowed implementing features such as ‘dslide-slide-action-each-child’.
+The children of such a parent slide exist simultaneously.  A consequence
+of the choice not to flatten is that parents own their children.  The
+lifecycle of a parent always encompasses its child.
+
+   • The deck object is the root of all functionality and many commands
+     delegate through it
+   • The deck owns slides, which own actions
+   • Slide actions may further own child slides
+
+* Menu:
+
+* Life Cycles::                  What Lives When
+
+
+File: dslide.info,  Node: Life Cycles,  Up: Objects & Ownership
+
+8.1.1 Life Cycles
+-----------------
+
+Owning an object also means out-living it.  This is important to
+understanding the sequence of events.  The methods used for the
+lifecycle are part of dslide’s *note Stateful Sequence: Stateful
+Sequence.  Every lifecyle starts with ‘dslide-begin’ or ‘dslide-end’
+(depending on whether we go forward or backward) and ends with
+‘dslide-final’.
+
+   The state of the slide out-lives the state of its slide action.  The
+slide action out-lives both child slides and section actions.  Child
+slides and section actions life cycles may overlap.
+
+   The child and section actions orders can vary depending on the slide
+action’s choices.  There may be multiple children alive at one time.
+The children may complete after, before, or at the same time as the
+section actions.
+
+   *Going forward:*
+
+  1. slide ‘dslide-begin’
+  2. slide action ‘dslide-begin’
+  3. section actions + child slides ‘dslide-begin’
+  4. section actions + child slides ‘dslide-final’
+  5. slide action ‘dslide-final’
+  6. slide ‘dslide-final’
+
+   *Going backward:*
+
+  1. slide ‘dslide-end’
+  2. slide action ‘dslide-end’
+  3. child slides + section actions ‘dslide-end’
+  4. child slides + section actions ‘dslide-final’
+  5. slide action ‘dslide-final’
+  6. slide ‘dslide-final’
+
+
+File: dslide.info,  Node: Stateful Sequence,  Next: Instantiating Slides,  Prev: Objects & Ownership,  Up: Hacking 🧑‍🔬
+
+8.2 Stateful Sequence
+=====================
+
+Presentations are supposed to be linear sequences.  We want to traverse
+the sequence, performing the steps, entirely by calling ‘dslide-forward’
+and ‘dslide-backward’.
+
+   If all sequences were idempotent, we would only implement
+‘dslide-forward’ and ‘dslide-backward’.  However, sequences often
+require setup and teardown before carrying out a single step.  This is
+the “stateful” part.
+
+   Implementing this without explicit setup methods crammed too much
+behavior into ‘dslide-forward’ and ‘dslide-backward’ while also
+requiring them to decide if they were attempting to make progress or
+just performing setup.  It was annoying when building actions.
+
+   Setup and teardown can happen in both directions, so there is
+‘dslide-begin’ and ‘dslide-end’.  The latter commonly calls the former
+and then advances the state to the end, but some more optimal setups are
+possible and already in use.
+
+   Slides may be disposed of after they no longer make progress.  To
+allow intended cleanup to happen at the right moment, the parent calls
+‘dslide-final’.  This can be called at any time after ‘dslide-end’ or
+‘dslide-begin’.
+
+   The return values for these methods matter!  See *note flow control:
+Flow Control.
+
+* Menu:
+
+* Flow Control::                 Controlling Progress
+
+
+File: dslide.info,  Node: Flow Control,  Up: Stateful Sequence
+
+8.2.1 Flow Control
+------------------
+
+Decks, slides, and actions implement the ‘dslide-stateful-sequence’
+interface.  On each call to ‘dslide-deck-forward’ or
+‘dslide-deck-backward’, the deck receives the first call to its
+‘dslide-forward’ method.  First, the deck will check for any step
+callbacks.  (These may be added with ‘dslide-push-step’ in actions or
+babel blocks.)  If there are no step callbacks, the deck delegates
+‘dslide-forward’ to the slide.  The slide may delegate down to an
+action, which may then further delegate to a child slide and so on.
+Eventually, an action will implement the step.
+
+   The return value tells the parent if progress was made.  In the most
+basic case, each delegate will try all of its actions until one returns
+non-nil.  The delegate returns the first non-nil result.  If the
+delegate returns nil, it means it was unable to make progress, and so
+the caller will instead try its own next action.  The deck will find a
+root level sibling and hydrate it using ‘dslide--make-slide’.  A child
+action would find the next child and hydrate that.
+
+   The moment of calling ‘dslide-final’ can vary depending on the
+situation.  If there is only one slide at a time, ‘dslide-final’ is
+usually called right after the child returns nil.  If the child is one
+of several, such as with ‘dslide-slide-action-inline’, then only after
+all children complete will they have their ‘dslide-final’ called.  If
+the presentation is quit early or the contents are opened,
+‘dslide-final’ is also called, possibly before all steps are complete.
+
+   Whenever all slides and actions return nil all the way back up to the
+deck, it looks for a next or previous top-level heading to make into a
+slide.  If none is found, it indicates that the user is at the beginning
+or end of the presentation.
+
+   The deck object and slide actions frequently create new children from
+org headings.  They call their ‘dslide-begin’ or ‘dslide-end’ methods
+right after that.  If these methods don’t indicate progress, the
+‘dslide-forward’ or ‘dslide-back’ method will be called.
+
+
+File: dslide.info,  Node: Instantiating Slides,  Next: Display,  Prev: Stateful Sequence,  Up: Hacking 🧑‍🔬
+
+8.3 Instantiating Slides
+========================
+
+Slides are created by calling ‘dslide--make-slide’ with an org element
+for a heading.  This function interprets the class name and arguments
+for the new slide and instantiates the object.
+
+   The default classes and actions can be configured at the document or
+customize level.  Set the ‘DSLIDE_DECK_CLASS’ and ‘DSLIDE_SLIDE_CLASS’
+as well as other properties that work at the heading level.  The order
+of precedence (*Not fully implemented* 🚧):
+
+   • Property definition of the current heading
+   • Property definition in the document
+   • Customize variable
+
+   ‘dslide--make-slide’ will look in order for the highest precedence
+setting and then instantiate the class with that value in the slot.
+
+
+File: dslide.info,  Node: Display,  Next: Element Mapping,  Prev: Instantiating Slides,  Up: Hacking 🧑‍🔬
+
+8.4 Display
+===========
+
+How various visual effects are achieved.
+
+* Menu:
+
+* Hiding::                       With Overlays
+* Animation::                    Timers & Overlays
+* Full Screen Images::           Image Mode Buffer
+
+
+File: dslide.info,  Node: Hiding,  Next: Animation,  Up: Display
+
+8.4.1 Hiding
+------------
+
+The slide buffer, being an indirect clone of the base buffer, does not
+have independent text properties.  For this reason, overlays are
+typically used to hide content.
+
+   Most things that are hidden could be once again revealed.  This is
+typically accomplished by mutating or deleting the overlay.
+
+
+File: dslide.info,  Node: Animation,  Next: Full Screen Images,  Prev: Hiding,  Up: Display
+
+8.4.2 Animation
+---------------
+
+There are currently two animation types, peel and slide-in:
+
+   • Peel uses an overlay that is removed from the content one character
+     at a time.  In order to preserve the flow of the obscured contents,
+     such as when doing inline reveal with content after the reveal, the
+     overlay must either match the background color or use the display
+     property.
+   • Slide-in uses an overlay with a ‘:before-string’ text property to
+     insert a newline in order to use the ‘:line-height’ property to
+     slowly remove padding with a timer.
+
+   Peel is the default when an action or slide’s ‘:inline’ property is
+non-nil.  If multiple actions try to slide in at once, the result will
+not be good.  This is visible when combining
+‘dslide-slide-action-every-child’ and ‘dslide-action-item-reveal’
+
+
+File: dslide.info,  Node: Full Screen Images,  Prev: Animation,  Up: Display
+
+8.4.3 Full Screen Images
+------------------------
+
+These are just image buffers with the mode line turned off.
+
+
+File: dslide.info,  Node: Element Mapping,  Next: Progress Tracking,  Prev: Display,  Up: Hacking 🧑‍🔬
+
+8.5 Element Mapping
+===================
+
+Org’s Element API is the foundation on top of which dslide is built.
+It’s documentation is not currently in a manual.  Here’s the web link:
+Org Element API docs
+(https://orgmode.org/worg/dev/org-element-api.html).  By using the
+element parser, we can avoid the issues that plague regex based
+implementations.  (The trade-off is more garbage generation.)
+
+   Very frequently, we parse a section of the document and map over
+elements or headings within.  This allows us to treat the document or a
+part of it as a list.  The mapping functions all eventually delegate to
+‘dslide--map’ which itself uses ‘org-element-map’, narrowed to the
+targeted region.
+
+   It is very common when writing actions to work on only the section or
+only the children.  For this reason, some shortcuts to map the section
+or children exist.  Some section actions such as
+‘dslide-action-hide-markup’ are almost entirely built ‘on
+dslide-section-map’.
+
+   Frequently we are looking for an element before or after a marker, so
+shortcuts exist for finding the next or previous element.  Section
+actions typically use ‘dslide-section-next’ and
+‘dslide-section-previous’.  Slide actions typically use
+‘dslide-child-next’ and ‘dslide-child-previous’ to traverse the child
+headings.
+
+   Mapping and *note progress tracking: Progress Tracking. are
+intimately related.  Finding the previous or next element is implemented
+by mapping to find the element beginning before or after a certain
+point.  Careful handling of markers and a consistent scheme for sensing
+progress enable markers in the buffer to act as progress cursors for a
+variety of actions.
+
+
+File: dslide.info,  Node: Progress Tracking,  Prev: Element Mapping,  Up: Hacking 🧑‍🔬
+
+8.6 Progress Tracking
+=====================
+
+Dslide’s predecessor, org-tree-slide, frequently used the point to track
+state.  This can be fragile and there is also only one point.  To be
+more robust when the document is changing out from under us, dslide uses
+markers.
+
+   Slides keep a reference to the heading in their ‘:begin’ slot and
+then retrieve it using ‘org-element-at-point’.  Actions similarly use a
+marker in order to keep track of how much of the current heading they
+have already used.  For convenience, ‘dslide-section-next’ and
+‘dslide-section-previous’ are used to simultaneously find the next
+element and update the marker, eliminating silly mistakes like
+forgetting to update the marker.
+
+   There are two schemes in place for tracking progress:
+
+   • When viewing a sequence of images, we reverse by going back to the
+     previous image rather than re-showing the current image.  This is
+     the default progress scheme.
+   • When showing and hiding elements, we reverse undoing the most
+     recent work.  This means hiding the most recently shown or showing
+     the most recently hidden element.  This is the scheme used when
+     REVERSE-IN-PLACE is non-nil.
+
+   ⚠️ This section is fiddly and tricky.  Put on your smarty hat.  👷
+
+   *Normal Progress*
+
+   In short, find the element beginning after (before in reverse) the
+marker, move the marker to its beginning, and work on that element.  If
+there is no next element, move as far as you can.
+
+   • The heading always begins before the first element.  We can
+     reliably position before all elements by putting the marker at the
+     beginning of the heading.
+   • To go forward, we find the first element beginning after the marker
+     and move the marker to its beginning.  We work on that element.  It
+     will be skipped if we immediately go backward again.
+   • If there is no next element, we move the marker to the end of the
+     heading, which is after the beginning of the last element.
+   • To go backward, we find the first element beginning before the
+     marker and move the marker to its beginning.  We work on that
+     element.  It will be skipped if we immediately go forward again.
+
+   *Reverse In Place Progress*
+
+   If doing work means the next reverse step should undo that work, you
+need reversing in place.  We need to slightly tweak our rules to allow
+two states on each element.  Since every element ends after it begins,
+we can reliably use the end and beginning positions to differentiate if
+we already used an element when going forwards or backwards.
+
+   A very deliberate design choice was to avoid needing to return more
+than one element from a mapping call.  This means we always want to find
+the element we intend to work on e.g.  we do not want to find the
+element to work on and then have to find the next element to update the
+marker.
+
+   • To go forward, we find the first element beginning at or after the
+     marker.  We move the marker to the end of this element and work on
+     this element.
+   • To go backward, we find the first element ending at or before the
+     marker.  We move the marker to the beginning of this element and
+     work on this element.
+   • Going forward, begin at the beginning of the heading just like
+     normal progress.  The first element will not be skipped.
+   • Going backward, begin at the end of the heading.  This is at most
+     the end of the last element, so it won’t be skipped.
+
+   ☢️ Before these two schemes were developed, some actions were easier
+to implement one way while others were easier the other way.  There was
+much flip-flopping and radiation sickness from broken actions.
+Eventually it was realized that both schemes make perfect sense for the
+right problems.
+
+   ⚠️ Org elements can and do overlap.  Lists are one such challenge.
+List elements can all end at the same location.  Naively calling
+‘org-element-at-point’ is a bad idea.  See ‘dslide-action-item-reveal’
+for higher level interfaces.
+
+   If you need more states per element, this kind of implicit state
+tracking is insufficient and you will have to implement state-tracking.
+⚠️ Don’t use text properties to store state in buffer text since they
+will persist in the base buffer between presentation starts if not
+cleaned up.
+
+
+File: dslide.info,  Node: Contributing 🍔,  Next: Acknowledgments 🥇,  Prev: Hacking 🧑‍🔬,  Up: Top
+
+9 Contributing 🍔
+****************
+
+   • Since you likely just need something to magically happen, the
+     recommended option is to place a hamburger in the hamburger jar
+     (https://github.com/sponsors/positron-solutions) and file an issue.
+   • If you do have time, excellent.  Happy to support your PR’s and
+     provide context about the architecture and behavior.
+
+* Menu:
+
+* Work In Progress 🚧::
+
+
+File: dslide.info,  Node: Work In Progress 🚧,  Up: Contributing 🍔
+
+9.1 Work In Progress 🚧
+======================
+
+Open issues and give feedback on feature requests.  Contributions
+welcome.  See the 1.0 feature roadmap
+(https://github.com/positron-solutions/dslide/issues/20).
+
+* Menu:
+
+* Affiliated Keyword::
+* Layout::
+* Action Configuration Precedence::
+* Secondary Commands::
+* Starting From Point::
+* Affiliated Buffers::
+* Non-Graphic Display::
+* Improper Levels::
+* Counting Slides::
+* Non-Org Sequences::
+
+
+File: dslide.info,  Node: Affiliated Keyword,  Next: Layout,  Up: Work In Progress 🚧
+
+9.1.1 Affiliated Keyword
+------------------------
+
+This is the future of dslide.  Currently adding behavior to content can
+frequently require adding actions to the property drawer and then adding
+a keyword to the content.  This lacks precision, is unintuitive, and is
+inconvenient.  ‘dslide-action-propertize’ shows the way.  A dispatch
+system should find all ‘dslide’ prefixed affiliated keywords and
+activate the actions with the configuration.  This is faster and more
+concise.  It only requires editing in one place rather than two.
+
+   The property drawer will remain in use because headings have slide
+behavior that doesn’t make sense to adjust with affiliated keywords.
+For behavior affecting section elements or operating on objects within
+paragraphs, the affiliated keyword implementation is the right way.
+
+
+File: dslide.info,  Node: Layout,  Next: Action Configuration Precedence,  Prev: Affiliated Keyword,  Up: Work In Progress 🚧
+
+9.1.2 Layout
+------------
+
+A centering action is in the works.
+
+   Another option is using the Master of Ceremonies
+(https://github.com/positron-solutions/moc) package and its ‘moc-focus’
+command implement desirable behaviors such as filling the available
+space and padding the content to the center of the window.  This
+behavior could easily be improved and adapted into an action.
+
+
+File: dslide.info,  Node: Action Configuration Precedence,  Next: Secondary Commands,  Prev: Layout,  Up: Work In Progress 🚧
+
+9.1.3 Action Configuration Precedence
+-------------------------------------
+
+When a slide is created in ‘dslide-make-slide’, it can obtain them from
+several places:
+   • passed in arguments, as slide actions do to prevent children from
+     trying to display themselves
+   • properties, how slides are usually configured
+   • customize variables that set the default actions.
+   The order of precedence and capability to override options is still
+pretty immature.
+
+
+File: dslide.info,  Node: Secondary Commands,  Next: Starting From Point,  Prev: Action Configuration Precedence,  Up: Work In Progress 🚧
+
+9.1.4 Secondary Commands
+------------------------
+
+See the section about bindings for context.  Video play or other
+situations where the presentation might branch should be supported by
+overloading the behavior of ‘dslide-deck-start’.  I think this command
+will turn into ‘dslide-deck-secondary’ in the ‘dslide-mode-map’.
+
+
+File: dslide.info,  Node: Starting From Point,  Next: Affiliated Buffers,  Prev: Secondary Commands,  Up: Work In Progress 🚧
+
+9.1.5 Starting From Point
+-------------------------
+
+Since not many actions currently have implemented ‘dslide-goto’ very
+accurately, playing from point is likely not that accurate.  Progress
+updating in the base buffer is also currently only at the slide level of
+granularity.
+
+
+File: dslide.info,  Node: Affiliated Buffers,  Next: Non-Graphic Display,  Prev: Starting From Point,  Up: Work In Progress 🚧
+
+9.1.6 Affiliated Buffers
+------------------------
+
+There is no tracking whether a buffer is part of the presentation or
+not.  How would a buffer become one?  Should it be implicit?  Without
+any sort of tracking, the consequence is that having a presentation open
+leaves the minor mode bindings hot.  These commands do weird things when
+run from these situations, especially if running babel scripts, so some
+kind of first-class buffer affiliation seems necessary.
+
+
+File: dslide.info,  Node: Non-Graphic Display,  Next: Improper Levels,  Prev: Affiliated Buffers,  Up: Work In Progress 🚧
+
+9.1.7 Non-Graphic Display
+-------------------------
+
+For terminals, the line-height based slide-in effect is not supported.
+
+
+File: dslide.info,  Node: Improper Levels,  Next: Counting Slides,  Prev: Non-Graphic Display,  Up: Work In Progress 🚧
+
+9.1.8 Improper Levels
+---------------------
+
+Children with no parents or missing a level are currently not supported
+and likely cause bad behavior.
+
+
+File: dslide.info,  Node: Counting Slides,  Next: Non-Org Sequences,  Prev: Improper Levels,  Up: Work In Progress 🚧
+
+9.1.9 Counting Slides
+---------------------
+
+Especially if slides launch sub-sequences, and they do it from Lisp,
+this is hard.  Buffer slides and also slide actions make it somewhat
+ambiguous.  Counting trees or tracking the point might be easier.  A
+‘children’ method for sequences works as long as sequences actually
+implement it.
+
+
+File: dslide.info,  Node: Non-Org Sequences,  Prev: Counting Slides,  Up: Work In Progress 🚧
+
+9.1.10 Non-Org Sequences
+------------------------
+
+There’s no concrete reason why presentations need to start with Org mode
+buffers.  The deck object could have its org-specific functionality
+pushed down to an org-mode class.  The only requirement is to be able to
+hydrate some stateful sequences, which may hydrate and call into
+sub-sequences, meaning anything is pretty trivially possible.
+
+
+File: dslide.info,  Node: Acknowledgments 🥇,  Next: Pronunciation 👮,  Prev: Contributing 🍔,  Up: Top
+
+10 Acknowledgments 🥇
+********************
+
+This package is a direct descendant of Takaaki ISHIKAWA’s org-tree-slide
+(https://github.com/takaxp/org-tree-slide) package.  Many of the ideas
+and some of the implementations were either inherited or inspired by
+ideas from that package.  This package would not exist without the
+inspiration.  Thanks to everyone who contributed on org-tree-slide.
+
+
+File: dslide.info,  Node: Pronunciation 👮,  Next: Indices 📇,  Prev: Acknowledgments 🥇,  Up: Top
+
+11 Pronunciation 👮
+******************
+
+While it may have been spoken many times before, let it be official that
+there is no correct way to pronounce DSL IDE.  Here are some options:
+
+   • D-S-L I-D-E: as if it is an IDE for designing DSLs, clearly false
+     and pretentious sounding, but those who keep score lose for being
+     too anxious to win
+   • D’slide: perhaps, “the slide”
+   • DEEE slide: We are going un-slide your slides.  Powerpoint is no
+     more.  Emacs has triumphed over the board room at last
+
+   Please spread these and other intentionally wrongful pronunciations
+to protect those who have only ever read the name from persecution by
+self-annointed in-groups who claim to know the correct way to pronounce
+this made up word.
+
+
+File: dslide.info,  Node: Indices 📇,  Prev: Pronunciation 👮,  Up: Top
+
+12 Indices 📇
+************
+
+* Menu:
+
+* Command and Function index::
+* Concept index::
+* Variable index::
+
+
+File: dslide.info,  Node: Command and Function index,  Next: Concept index,  Up: Indices 📇
+
+12.1 Command and Function index
+===============================
+
+ [index ]
+* Menu:
+
+* dslide--make-slide:                    Instantiating Slides. (line  6)
+* dslide-action:                         Creating Actions.     (line 13)
+* dslide-action-babel:                   Babel Scripting 🧑‍💻.  (line  6)
+* dslide-action-hide-markup:             Hiding Markup 🥷🏿.     (line  6)
+* dslide-backward:                       Stateful Sequence.    (line  6)
+* dslide-begin:                          Stateful Sequence.    (line 20)
+* dslide-cursor-hide:                    Cursor Visibility 🥷.  (line  6)
+* dslide-cursor-restore:                 Cursor Visibility 🥷.  (line  6)
+* dslide-deck-backward:                  Two Button Interface. (line 15)
+* dslide-deck-develop:                   Present.              (line  6)
+* dslide-deck-develop <1>:               Develop.              (line  6)
+* dslide-deck-forward:                   Two Button Interface. (line 14)
+* dslide-deck-start:                     Two Button Interface. (line 17)
+* dslide-deck-stop:                      Two Button Interface. (line 23)
+* dslide-end:                            Stateful Sequence.    (line 20)
+* dslide-final:                          Stateful Sequence.    (line 25)
+* dslide-forward:                        Stateful Sequence.    (line  6)
+* dslide-heading:                        Progress Tracking.    (line  6)
+* dslide-push-step:                      Step Callbacks 👟.     (line  6)
+* dslide-section-next:                   A Custom Action.      (line  6)
+* dslide-section-next <1>:               Progress Tracking.    (line 11)
+* dslide-section-previous:               A Custom Action.      (line  6)
+* dslide-section-previous <1>:           Progress Tracking.    (line 11)
+* dslide-slide-action:                   Creating Actions.     (line 15)
+* dslide-stateful-sequence:              Stateful Sequence.    (line  6)
+
+
+File: dslide.info,  Node: Concept index,  Next: Variable index,  Prev: Command and Function index,  Up: Indices 📇
+
+12.2 Concept index
+==================
+
+ [index ]
+* Menu:
+
+* commented headings:                    Filtering Headings 🚮. (line  6)
+* confirming evaluation:                 Confirming Evaluation 🔏.
+                                                               (line  6)
+* contents:                              Glossary 🔤.           (line 35)
+* controlling progress:                  Flow Control.         (line 16)
+* element configuration:                 Glossary 🔤.           (line 28)
+* pushing steps:                         Step Callbacks 👟.     (line  6)
+* replacing the header:                  Header Configuration 🎩.
+                                                               (line 11)
+* reversing in place:                    Progress Tracking.    (line 19)
+* scripting babel steps:                 Babel Scripting 🧑‍💻.  (line  6)
+* secondary action:                      Glossary 🔤.           (line 20)
+* secondary action <1>:                  Two Button Interface. (line 20)
+* section action:                        Glossary 🔤.           (line 17)
+* slide action:                          Glossary 🔤.           (line 13)
+* slide buffer:                          Glossary 🔤.           (line 37)
+* step configuration:                    Glossary 🔤.           (line 32)
+* transcribing keyboard macros as steps: Keyboard Macros 🤖.    (line 21)
+* untrusted source:                      Confirming Evaluation 🔏.
+                                                               (line 11)
+
+
+File: dslide.info,  Node: Variable index,  Prev: Concept index,  Up: Indices 📇
+
+12.3 Variable index
+===================
+
+ [index ]
+* Menu:
+
+* dslide-breadcrumb-face:                Breadcrumbs 🍞.        (line 16)
+* dslide-breadcrumb-separator:           Breadcrumbs 🍞.        (line  6)
+* dslide-breadcrumb-separator-style:     Breadcrumbs 🍞.        (line 10)
+* dslide-default-actions:                Default Actions ⛔.    (line  9)
+* dslide-default-filter:                 Filtering Headings 🚮. (line 14)
+* dslide-header:                         Header Configuration 🎩.
+                                                               (line  6)
+* dslide-header-email:                   Header Configuration 🎩.
+                                                               (line 11)
+* dslide-hide-markup-types:              Hiding Markup 🥷🏿.     (line  6)
+* dslide-hide-tags:                      Hiding Markup 🥷🏿.     (line 10)
+* dslide-hide-todo:                      Hiding Markup 🥷🏿.     (line 10)
+
+
+
+Tag Table:
+Node: Top35230
+Node: Introduction 🤯39458
+Node: Design Goals 🥅40448
+Node: Strengths 🦾41700
+Node: Status 🤠42442
+Node: Glossary 🔤42988
+Node: Org Mode Terms 🦄45695
+Node: Creating ✏️47176
+Node: Actions 🪄48172
+Node: Enabling Actions 🚦49488
+Node: Per-Element50238
+Node: Keyword50960
+Node: Property Drawer51351
+Node: Default Actions ⛔52774
+Node: Configuring Actions 🎛️53473
+Node: Babel Scripting 🧑‍💻54809
+Node: Controlling Direction ♻️55577
+Node: Ignoring Blocks 🙅57672
+Node: Visibility 👻58071
+Node: Confirming Evaluation 🔏58728
+Node: Step Callbacks 👟59255
+Node: Keyboard Macros 🤖60742
+Node: Hiding Markup 🥷🏿62241
+Node: Filtering Headings 🚮62772
+Node: Header Configuration 🎩63526
+Node: Breadcrumbs 🍞64254
+Node: File Local Variables 🍦65001
+Node: Presenting 📽️65628
+Node: Two Button Interface66057
+Node: Contents Interface67017
+Node: Source Following67704
+Node: Present69251
+Node: Develop69744
+Node: Start Functions70315
+Node: Cursor Visibility 🥷71193
+Node: Configuring 🎛️71831
+Node: Key Bindings72558
+Node: Secondary Commands 🚧73453
+Node: Hooks73800
+Node: Per-Slide Behavior75480
+Node: Steezing Org 🕶️75978
+Node: Extending 🧑‍🏭77073
+Node: Creating Actions77441
+Node: A Custom Action78410
+Node: Default Classes80621
+Node: Hacking 🧑‍🔬81660
+Node: Objects & Ownership82266
+Node: Life Cycles83090
+Node: Stateful Sequence84501
+Node: Flow Control85996
+Node: Instantiating Slides88199
+Node: Display89093
+Node: Hiding89435
+Node: Animation89830
+Node: Full Screen Images90786
+Node: Element Mapping90978
+Node: Progress Tracking92787
+Node: Contributing 🍔97221
+Node: Work In Progress 🚧97752
+Node: Affiliated Keyword98276
+Node: Layout99194
+Node: Action Configuration Precedence99713
+Node: Secondary Commands100319
+Node: Starting From Point100798
+Node: Affiliated Buffers101212
+Node: Non-Graphic Display101809
+Node: Improper Levels102062
+Node: Counting Slides102336
+Node: Non-Org Sequences102798
+Node: Acknowledgments 🥇103292
+Node: Pronunciation 👮103802
+Node: Indices 📇104673
+Node: Command and Function index104860
+Node: Concept index106892
+Node: Variable index108558
+
+End Tag Table
+
+
+Local Variables:
+coding: utf-8
+End:
