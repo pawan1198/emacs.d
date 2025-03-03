@@ -1,0 +1,143 @@
+#+TITLE: org-timeblock
+
+Schedule your day visually, using [[https://en.wikipedia.org/wiki/Timeblocking][timeblocking technique]] inside Emacs.
+
+* Contents
+
+- [[#screenshots][Screenshots]]
+- [[#screencast][Screencast]]
+- [[#description][Description]]
+- [[#installation][Installation]]
+- [[#usage][Usage]]
+- [[#customization][Customization]]
+
+* Screenshots
+:PROPERTIES:
+:CUSTOM_ID: screenshots
+:END:
+
+org-timeblock-mode buffer:
+
+[[file:screenshots/org-timeblock.png]]
+
+You can press ~[t]~ to toggle the display of org-timeblock-list-mode buffer:
+
+[[file:screenshots/org-timeblock-with-list.png]]
+
+* Screencast
+:PROPERTIES:
+:CUSTOM_ID: screencast
+:END:
+
+[[https://youtu.be/tuMcPotV71I]]
+
+* Description
+:PROPERTIES:
+:CUSTOM_ID: description
+:END:
+
+The builtin orgmode package for viewing tasks or events for a
+particular day, org-agenda, does not help you to quickly understand,
+where, for example, you have free time in your day or where you have
+overlapping tasks.  Just a list of tasks is not sufficient.  This
+package is created to fix this problem and provide some of the
+functionality that modern calendars provide.
+
+There are two major modes provided by the package:
+
+- ~org-timeblock-mode~.  Displays visual schedule (timeblocks) of org
+  tasks that are scheduled or have an active timestamp in their body
+  (orgmode events) for selected day (Currently, only day view is available).  Available commands:
+  - org-timeblock-day-earlier/later ~[C-<down>/<up>]~
+  - org-timeblock-set-duration ~[d]~
+  - org-timeblock-reschedule ~[s]~
+  - org-timeblock-new-task ~[+]~
+  - org-timeblock-toggle-timeblock-list ~[t]~
+  - org-timeblock-todo ~[1]~
+  - org-timeblock-done ~[5]~
+  - org-timeblock-switch-view ~[v]~
+  - org-timeblock-jump-to-day ~[j]~
+
+- ~org-timeblock-list-mode~.  Displays a list of org tasks that are
+  scheduled or orgmode events for selected day.  It's sort of like a
+  light org-agenda.  The tasks can be sorted via ~SCHEDULED~ org
+  property or manually placed by user via commands
+  ~org-timeblock-list-drag-line-forward/backward [M-<up>/<down>]~.  The
+  order can be saved in a cache file via ~org-timeblock-list-save
+  [C-s]~ command.  The sorting algorithm can be changed via
+  ~org-timeblock-list-toggle-sort-function [S]~ command.
+  - org-timeblock-list-schedule ~[s]~
+  - org-timeblock-list-set-duration ~[d]~
+  - org-timeblock-todo ~[1]~
+  - org-timeblock-done ~[5]~
+  - org-timeblock-list-drag-line-forward/backward ~[M-<down>/<up>]~
+  - org-timeblock-list-toggle-sort-function ~[S]~
+  - org-timeblock-list-toggle-timeblock ~[t]~
+
+* Installation
+:PROPERTIES:
+:CUSTOM_ID: installation
+:END:
+
+Requirements:
+
+- Emacs 28.1 (or higher)
+- SVG support in your Emacs build
+- org 9.6.7 (or higher)
+- org-ql 0.7 (or higher)
+
+For now, only manual installation is available.  To install:
+
+1.  Run ~M-x package-install org-ql~
+2.  ~git clone https://github.com/ichernyshovvv/org-timeblock~
+3.  Add the path of the downloaded folder to ~load-path~ somewhere in your Emacs
+    config:
+
+#+begin_src elisp
+(add-to-list 'load-path "path/to/org-timeblock/")
+#+end_src
+
+* Usage
+:PROPERTIES:
+:CUSTOM_ID: usage
+:END:
+
+To enter ~org-timeblock-list-mode~, run ~M-x org-timeblock-list~.  To
+enter ~org-timeblock-mode~, run ~M-x org-timeblock~
+
+For both modes, the default date is today.  All the tasks and events
+are searched in ~(org-agenda-files)~.  You can change the displayed
+date via the following commands:
+
+- org-timeblock-day-later ~[C-<down>]~
+- org-timeblock-day-earlier ~[C-<up>]~
+- org-timeblock-jump-to-day ~[j]~
+
+To navigate between tasks/blocks, use these commands:
+
+- org-timeblock-list-mode
+  - org-timeblock-list-previous-line ~[<up>]~
+  - org-timeblock-list-next-line ~[<down>]~
+- org-timeblock-mode
+  - org-timeblock-forward-block ~[<down>]~
+  - org-timeblock-bacward-block ~[<up>]~
+
+In both modes, you can navigate via mouse clicks to select an entry or
+a block.
+
+To reschedule or change the duration of a task at point, use these
+commands:
+
+- org-timeblock-list-mode
+  - org-timeblock-list-schedule ~[s]~
+  - org-timeblock-list-set-duration ~[d]~
+- org-timeblock-mode
+  - org-timeblock-schedule ~[s]~
+  - org-timeblock-set-duration ~[d]~
+
+* Customization
+:PROPERTIES:
+:CUSTOM_ID: customization
+:END:
+
+~M-x customize-group org-timeblock~ to see available customizable variables.

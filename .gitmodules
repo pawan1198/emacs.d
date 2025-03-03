@@ -1,0 +1,19 @@
+[submodule "org-mode"]
+	path = org-mode
+	url = https://code.orgmode.org/bzg/org-mode.git
+[submodule "org-passwords.el"]
+	path = org-passwords.el
+	url = git@github.com:alfaromurillo/org-passwords.el.git
+[submodule "emacs-application-framework"]
+	path = emacs-application-framework
+	url = https://github.com/emacs-eaf/emacs-application-framework.git
+	branch = master
+[submodule "org-contrib"]
+	path = org-contrib
+	url = https://git.sr.ht/~bzg/org-contrib
+[submodule "ts-fold"]
+	path = ts-fold
+	url = https://github.com/emacs-tree-sitter/ts-fold
+[submodule "org-timeblock"]
+	path = org-timeblock
+	url = https://github.com/ichernyshovvv/org-timeblock
