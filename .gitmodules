@@ -17,3 +17,6 @@
 [submodule "org-timeblock"]
 	path = org-timeblock
 	url = https://github.com/ichernyshovvv/org-timeblock
+[submodule "polymode"]
+	path = polymode
+	url = https://github.com/vitoshka/polymode.git
